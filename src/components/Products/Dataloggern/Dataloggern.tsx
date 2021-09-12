@@ -35,7 +35,9 @@ import Carousel3 from './carousel/carousel2';
 import { Modal, Button, Form } from "react-bootstrap";
 import Accordion from './accordion';
 import Config from '../../../config.json';
+import GetDetails from "../../getDetails/GetDetails";
 interface JQuery {
+
   switchClass(): void;
 }
 
@@ -47,7 +49,7 @@ function Dataloggern(){
 let history = useHistory();
 const [show,setShow]=useState(false);
 
-
+var [show2,setShow2]=useState(false);
 const handleRedirecting=()=>{
   setShow(false);
 }
@@ -97,6 +99,24 @@ const handleRedirecting=()=>{
         <title>Ambitag-DataLogger</title>
         <meta name="description" content="The AmbiTag temperature data logger is a compact sadasdasdadas USB device that records the temperature of its immediate surroundings continuously and generates alert when the temperature goes beyond pre-set limits." />
     </Helmet>
+
+
+
+    
+    <Modal show={show2} className="modal rounded fade modal fade"   onHide={() => setShow2(false)} data-aos="zoom-in" 
+      
+      aria-labelledby="contained-modal-title-vcenter"  style={{"paddingTop":"5%" ,"overflow":"auto" }}
+      centered
+    >
+
+
+      <Modal.Header closeButton style={{"color":"white","backgroundImage":"linear-gradient(to right, #1FD9F3,#5BA5FD)"}} ></Modal.Header>
+     
+     <GetDetails/>
+
+    </Modal> 
+
+
 {/* this part of code cosists of modals */}
     <Modal show={show} className="modal"   onHide={() => setShow(false)}
      
@@ -132,7 +152,7 @@ const handleRedirecting=()=>{
 <div id="button1">
   {/* here i have added onclick event to add item to cart */}
   <button className="btn btn-primary btn1" onClick={submitData}>Order Now</button>
-  <button className="btn btn-primary btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button>
+  <button className="btn btn-primary btn2" onClick={()=>{setShow2(true)}}>Get Details</button>
   
 </div>
  </div>
@@ -144,7 +164,7 @@ const handleRedirecting=()=>{
    <div id="button2">
        {/* here i have added onclick event to add item to cart */}
   <button className="btn btn-primary btn3"   onClick={submitData}>Order Now</button>
-  <button className="btn btn-primary btn4" onClick={()=>{history.push("/get_details")}}>Get Details</button>
+  <button className="btn btn-primary btn4" onClick={()=>{setShow2(true)}}>Get Details</button>
   
 </div>
 

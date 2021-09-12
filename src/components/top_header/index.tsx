@@ -254,7 +254,7 @@ function Topheader(props: any) {
   </tr><tr>
   <div id="demo3" className="collapse" >
     <li onClick={()=>{history.push("/products/logger")}}>  
-    Ambi-Tag
+    AmbiTag
     </li>
 
 

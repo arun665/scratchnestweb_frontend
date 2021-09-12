@@ -2,8 +2,8 @@
 import Topheader from "../../top_header/index";
 import  "./Rfid.scss";
 import { useEffect } from "react";
-import bg1 from './bg.png';
-import bg2 from './bg.png';
+import bg1 from './0.jpg';
+import bg2 from './0.jpg';
 import rfidimg2 from './div2Beacon.png';
 import Footer from "../../Footer/footer2";
 import Beacon2 from "./DataLogger/datalogger2";
@@ -42,7 +42,7 @@ function BeaconSec(){
      <img src={bg1} id="img1" />    
     </div>
     
-    <div className="col-sm-7 col-md-7 col-xs-12">
+    <div className="col-sm-7 col-md-7 col-12">
      <img src={bg2} id="beaconimg2" />    
     </div>
     <div className="col-sm-6 col-md-6 col-xs-12 div">

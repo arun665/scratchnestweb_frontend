@@ -7,15 +7,18 @@ import Boxes from './boxes/boxes';
 import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
-import {useEffect} from 'react';
+import {useEffect,useState} from 'react';
 import {Helmet} from "react-helmet";
 import Carousel from './carousel/carousel';
 import Carousel2 from './carousel/carousel2';
 
-import {Modal }from 'react-bootstrap';
-import {useState} from 'react';
+
 import { useHistory } from 'react-router-dom';
 import Config from '../../../../config.json';
+
+import { Modal, Button, Form } from "react-bootstrap";
+import GetDetails from "../../../getDetails/GetDetails";
+
 
 function RfidProduct(){
 
@@ -25,11 +28,16 @@ function RfidProduct(){
       }, [])
 
 
-      const [show,setShow]=useState(false);
+      const [show2,setShow2]=useState(false);
+
+
+
+      var [show,setShow]=useState(false);
+
 
 
       const handleRedirecting=()=>{
-        setShow(false);
+        setShow2(false);
       }
       
       
@@ -55,17 +63,17 @@ function RfidProduct(){
       
       
             if(res.status){ //if item added to cart successfully
-              setShow(true);
+              setShow2(true);
             }
             else{
               //else if user id not logged in than redirecting to login page
-              setShow(false);
+              setShow2(false);
               history.push("/login");
             }
       
           
           })
-          .catch(err=>{setShow(true);
+          .catch(err=>{setShow2(true);
             console.log(err);
           });
         }
@@ -77,6 +85,26 @@ function RfidProduct(){
 
 return(<>
 <div  id="linear_product">
+
+
+
+  
+<Modal show={show} className="modal rounded fade modal fade"   onHide={() => setShow(false)} data-aos="zoom-in" 
+      
+      aria-labelledby="contained-modal-title-vcenter"  style={{"paddingTop":"5%" ,"overflow":"auto" }}
+      centered
+    >
+
+
+      <Modal.Header closeButton style={{"color":"white","backgroundImage":"linear-gradient(to right, #1FD9F3,#5BA5FD)"}} ></Modal.Header>
+     
+     <GetDetails/>
+
+    </Modal> 
+
+
+
+
 <Helmet>
         <title>Linear Antenna</title>
         <meta name="description" content="linear polarized RFID antenna that provides reception and transmission of signals in the UHF frequency band. Both US and EU versions are available in this model" />
@@ -84,7 +112,7 @@ return(<>
 
 
 
-    <Modal show={show} className="modal"   
+    <Modal show={show2} className="modal"   
      
       aria-labelledby="contained-modal-title-vcenter" style={{"padding":"3%"}}
       centered
@@ -123,7 +151,8 @@ return(<>
 <h5> SN - LA 101</h5>
 <div className="buttondiv">
 <button className="btn btn1"  onClick={submitData}>Order Now</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow(true)}}
+>Get Details</button> 
 
 </div>
      </div>
@@ -134,7 +163,7 @@ return(<>
 </div>
 <div className="buttondiv2">
 <button className="btn btn1"  onClick={submitData}>Order Now</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow(true)}}>Get Details</button> 
 
 </div>
     </div>

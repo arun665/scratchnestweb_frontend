@@ -44,31 +44,35 @@ function Footer() {
 
             
            <div className="btn-group">
+
+           <a onClick={WhatsApp}>
+           
+           <button type="button" className="btn  btn-lg text-white fa fa-whatsapp"></button>
+           </a>
+           <a href="mailto:info@scratchnest.com">
+     
+     <button type="button" className="btn  btn-lg text-white fa fa-envelope"></button>
+     </a>
+     <a onClick={Linkedin}>
+ 
+ <button type="button" className="btn  btn-lg text-white fa fa-linkedin"></button>
+</a>
            <a onClick={Twitter} >
         
     <button type="button" className="btn  btn-lg text-white fa fa-twitter" > </button>
     </a>
 
-    <a onClick={Linkedin}>
- 
-    <button type="button" className="btn  btn-lg text-white fa fa-linkedin"></button>
- </a>  
+    <a onClick={Instagram}>
+           
+    <button type="button" className="btn  btn-lg text-white fa fa-instagram"></button>
+    </a>  
     <a onClick={facebook}>
            
     <button type="button" className="btn  btn-lg text-white fa fa-facebook"></button>
     </a>
-    <a onClick={Instagram}>
-           
-    <button type="button" className="btn  btn-lg text-white fa fa-instagram"></button>
-    </a>
-    <a href="mailto:info@scratchnest.com">
-     
-    <button type="button" className="btn  btn-lg text-white fa fa-envelope"></button>
-    </a>
-    <a onClick={WhatsApp}>
-           
-           <button type="button" className="btn  btn-lg text-white fa fa-whatsapp"></button>
-           </a>
+  
+   
+   
   </div>
 
 

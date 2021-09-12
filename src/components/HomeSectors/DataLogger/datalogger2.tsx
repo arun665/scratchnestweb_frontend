@@ -5,12 +5,38 @@ import { IonCol, IonGrid, IonRow, IonText } from "@ionic/react";
 import { Link , useHistory} from "react-router-dom";
 import logger from './logger2.png';
 import {useState } from 'react';
+
+import { Modal, Button, Form } from "react-bootstrap";
+import GetDetails from "../../getDetails/GetDetails";
+
+
+
 function DataLogger() {
   let[d4,setD4]=useState(false);
   var history = useHistory();
   
 
-  return (
+var [show,setShow]=useState(false);
+
+
+  return (<>
+
+  
+<Modal show={show} className="modal rounded fade modal fade"   onHide={() => setShow(false)} data-aos="zoom-in" 
+      
+      aria-labelledby="contained-modal-title-vcenter"  style={{"paddingTop":"5%" ,"overflow":"auto" }}
+      centered
+    >
+
+
+      <Modal.Header closeButton style={{"color":"white","backgroundImage":"linear-gradient(to right, #1FD9F3,#5BA5FD)"}} ></Modal.Header>
+     
+     <GetDetails/>
+
+    </Modal> 
+
+
+    
     <div className="dataLogger" id="datalogger" >
     
 <div className="container-field" >
@@ -64,7 +90,8 @@ Record and monitor temperature and humidity with our compact “AmbiTag'' data l
                         
 <button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore Now  </button>
 </Link>
-<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out" onClick={()=>{history.push("/get_details")}}>Get Details</button>
+<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out"
+onClick={()=>{setShow(true)}}>Get Details</button>
 </div>
 </div>
 
@@ -93,7 +120,8 @@ Record and monitor temperature and humidity with our compact “AmbiTag'' data l
                         
 <button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore Now  </button>
 </Link>
-<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out" onClick={()=>{history.push("/get_details")}}> Get Details</button>
+<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out" 
+onClick={()=>{setShow(true)}}> Get Details</button>
 </div>
 </div>
 </div>
@@ -107,6 +135,8 @@ Record and monitor temperature and humidity with our compact “AmbiTag'' data l
     
     
     </div>
+
+    </>
   );
 }
 

@@ -15,6 +15,7 @@ import {Modal }from 'react-bootstrap';
 import {useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import Config from '../../../../config.json';
+import GetDetails from "../../../getDetails/GetDetails";
 function Twoport(){
 
   useEffect(() => {
@@ -25,7 +26,7 @@ function Twoport(){
 
 
   const [show,setShow]=useState(false);
-
+  var [show2,setShow2]=useState(false);
 
   const handleRedirecting=()=>{
     setShow(false);
@@ -79,7 +80,18 @@ return(<>
         <title>Four Port Fixed Reader</title>
         <meta name="description" content="ScratchNest SN-FR 401 is a fixed four port RAIN RFID Reader which works in the ultra-high frequency range. It boasts various features including two antenna ports and USB, RS-232, RS-485, and LAN interfaces that make it easy to install and use. " />
     </Helmet>
+    <Modal show={show2} className="modal rounded fade modal fade"   onHide={() => setShow2(false)} data-aos="zoom-in" 
+      
+      aria-labelledby="contained-modal-title-vcenter"  style={{"paddingTop":"5%" ,"overflow":"auto" }}
+      centered
+    >
 
+
+      <Modal.Header closeButton style={{"color":"white","backgroundImage":"linear-gradient(to right, #1FD9F3,#5BA5FD)"}} ></Modal.Header>
+     
+     <GetDetails/>
+
+    </Modal> 
 
     <Modal show={show} className="modal"   
      
@@ -122,7 +134,7 @@ return(<>
 <h5> SN - FR 401</h5>
 <div className="buttondiv">
 <button className="btn btn1" onClick={submitData}>Coming Soon</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow2(true)}}>Get Details</button> 
 
 </div>
      </div>
@@ -133,7 +145,7 @@ return(<>
 </div>
 <div className="buttondiv2">
 <button className="btn btn1" onClick={submitData}>Coming Soon</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow2(true)}}>Get Details</button> 
 
 </div>
     </div>

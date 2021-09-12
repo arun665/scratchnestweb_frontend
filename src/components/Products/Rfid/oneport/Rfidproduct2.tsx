@@ -17,6 +17,7 @@ import {useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import Config from '../../../../config.json';
 import Carousel2  from './carousel/carousel2';
+import GetDetails from "../../../getDetails/GetDetails";
 function RfidProduct(){
 
     useEffect(() => {
@@ -27,7 +28,7 @@ function RfidProduct(){
       
 const [show,setShow]=useState(false);
 
-
+var [show2,setShow2]=useState(false);
 const handleRedirecting=()=>{
   setShow(false);
 }
@@ -83,6 +84,20 @@ return(<>
     </Helmet>
 
 
+    <Modal show={show2} className="modal rounded fade modal fade"   onHide={() => setShow2(false)} data-aos="zoom-in" 
+      
+      aria-labelledby="contained-modal-title-vcenter"  style={{"paddingTop":"5%" ,"overflow":"auto" }}
+      centered
+    >
+
+
+      <Modal.Header closeButton style={{"color":"white","backgroundImage":"linear-gradient(to right, #1FD9F3,#5BA5FD)"}} ></Modal.Header>
+     
+     <GetDetails/>
+
+    </Modal> 
+
+
     <Modal show={show} className="modal"   
      
       aria-labelledby="contained-modal-title-vcenter" style={{"padding":"3%"}}
@@ -123,7 +138,7 @@ return(<>
 <h5> SN - IR 101</h5>
 <div className="buttondiv">
 <button className="btn btn1" onClick={submitData}>Coming Soon</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow2(true)}}>Get Details</button> 
 
 </div>
      </div>
@@ -134,7 +149,7 @@ return(<>
 </div>
 <div className="buttondiv2">
 <button className="btn btn1"  onClick={submitData}>Coming Soon</button>
-<button className="btn  btn2" onClick={()=>{history.push("/get_details")}}>Get Details</button> 
+<button className="btn  btn2" onClick={()=>{setShow2(true)}}>Get Details</button> 
 
 </div>
     </div>
