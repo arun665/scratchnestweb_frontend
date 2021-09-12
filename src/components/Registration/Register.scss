@@ -1,0 +1,304 @@
+@media screen and (min-width:996px){
+    
+
+#register{
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:20%;
+    padding-top:1%;
+    min-height: 100vh;;
+        
+border:0px solid red;
+
+
+.modal{
+.successmodal{
+    
+    h1{
+        color:green;
+    font-size:2.5em;
+    }
+
+
+}
+}
+#form{
+        width:70%;
+        margin-top: 20vh;;
+        
+        margin-left:15%;
+        background-color: white;;
+        padding:5%;
+        padding-left:5%;
+        padding-right:5%;
+        border-radius: 25px;
+        box-shadow: 3.8px 4.75px 54.15px rgba(0, 0, 0, 0.25);;
+    
+form{
+    width:90%;
+    margin-left: 10%;
+    input{
+        background-color: #E9EEF2;
+        color:grey;
+        padding:5%;
+      
+        font-size:1em;
+        border:0px solid red;
+
+    }
+    ::placeholder { /* Firefox, Chrome, Opera */
+        color: #AAAFB4;
+    }
+
+    button{
+        width:100%;
+        
+        color:white;
+        background-image: linear-gradient(to right, #1FD9F3,#5BA5FD);
+    }
+     
+}
+        #heading{
+            width:100%;
+            text-align: center;
+            margin-bottom:5%;
+            align-items: center;
+            h1{
+                font-size:2em;
+
+            }
+            p{
+                font-size:1.2em;
+                color:grey;
+            }
+        
+
+        }
+        img{
+            height:100%;
+            width:100%;
+
+        }
+
+        .pass-wrapper {
+            position: relative;
+            display: flex;
+            
+            input{
+                padding:5%;border:0px solid red;
+        
+            }
+          }
+          
+          i {
+            position: absolute;
+            
+       top: 20%;;
+            right: 7%;
+          }
+          i:hover {
+            
+            cursor: pointer;
+          }
+
+    }
+}
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:996px){
+    
+
+    #register{
+        background-image: url('./bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom:10%;
+        min-height: 100vh;;
+
+        padding-top:1%;
+    
+        #form{
+            width:85%;
+            margin-top: 15vh;;
+            margin-left:7%;
+            background-color: white;;
+            padding:5%;
+            padding-left:5%;
+            padding-right:5%;
+            border-radius: 25px;
+            box-shadow: 3.8px 4.75px 54.15px rgba(0, 0, 0, 0.25);;
+        
+    form{
+        width:100%;
+        
+        input{
+            background-color: #E9EEF2;
+            color:grey;
+            padding:5%;
+          
+            font-size:1em;
+            border:0px solid red;
+    
+        }
+        ::placeholder { /* Firefox, Chrome, Opera */
+            color: #AAAFB4;
+        }
+    
+        button{
+            width:100%;
+            margin-top:15px;
+            color:white;
+            background-image: linear-gradient(to right, #1FD9F3,#5BA5FD);
+        }
+         
+    }
+            #heading{
+                width:100%;
+                text-align: center;
+                margin-bottom:5%;
+                align-items: center;
+                h1{
+                    font-size:1.5em;
+    
+                }
+                p{
+                    font-size:1em;
+                    color:grey;
+                }
+            
+    
+            }
+            img{
+                height:100%;
+                width:100%;
+                
+    
+            }
+    
+            .pass-wrapper {
+                position: relative;
+                display: flex;
+                
+                input{
+                    padding:5%;border:0px solid red;
+            
+                }
+              }
+              
+              i {
+                position: absolute;
+                
+           top: 20%;;
+                right: 7%;
+              }
+              i:hover {
+                
+                cursor: pointer;
+              }
+    
+        }
+    }
+    
+    }
+
+
+
+@media screen and (max-width:576px){
+    
+
+    #register{
+        background-image: url('./bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom:10%;
+        min-height: 100vh;;
+
+        padding-top:1%;
+    
+        #form{
+            width:85%;
+            margin-top: 15vh;;
+            margin-left:7%;
+            background-color: white;;
+            padding:5%;
+            padding-left:5%;
+            padding-right:5%;
+            border-radius: 25px;
+            box-shadow: 3.8px 4.75px 54.15px rgba(0, 0, 0, 0.25);;
+        
+    form{
+        width:100%;
+        
+        input{
+            background-color: #E9EEF2;
+            color:grey;
+            padding:5%;
+          
+            font-size:1em;
+            border:0px solid red;
+    
+        }
+        ::placeholder { /* Firefox, Chrome, Opera */
+            color: #AAAFB4;
+        }
+    
+        button{
+            width:100%;
+            margin-top:15px;
+            color:white;
+            background-image: linear-gradient(to right, #1FD9F3,#5BA5FD);
+        }
+         
+    }
+            #heading{
+                width:100%;
+                text-align: center;
+                margin-bottom:5%;
+                align-items: center;
+                h1{
+                    font-size:1.5em;
+    
+                }
+                p{
+                    font-size:1em;
+                    color:grey;
+                }
+            
+    
+            }
+            img{
+                height:100%;
+                width:100%;
+                display: none;
+    
+            }
+    
+            .pass-wrapper {
+                position: relative;
+                display: flex;
+                
+                input{
+                    padding:5%;border:0px solid red;
+            
+                }
+              }
+              
+              i {
+                position: absolute;
+                
+           top: 20%;;
+                right: 7%;
+              }
+              i:hover {
+                
+                cursor: pointer;
+              }
+    
+        }
+    }
+    
+    }

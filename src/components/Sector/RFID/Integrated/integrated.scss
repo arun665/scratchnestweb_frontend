@@ -1,0 +1,463 @@
+@media screen and ( min-width:996px){
+    #integrated{
+        background-image: url('./fixedbg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:110vh;
+        padding-bottom:10%;
+        width:100vw;
+    .paradiv{
+        
+         width:100%;
+    margin-top:15vh;
+    
+        h1{
+         font-size:3em;   
+        }
+        p{
+            font-size:1.3em;
+    font-weight: 100;;width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+        }
+    }
+    
+    #box1{
+        width:65%;
+        border-radius:50px;
+        margin-top:5%;
+        background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+
+
+
+      border:2px solid white;
+        min-height: 60vh;;
+    float:right;
+    padding-bottom:5%;
+    margin-right:5%;
+    #img1rfid{
+        width:70%;
+        
+        margin-top:5%;
+        height: 45%;;
+        margin-bottom: 5%;;
+    }
+    #para{
+        margin-left:15%;
+        
+        h1{
+            color:white;
+            font-size:2em;
+            text-align: left;;
+            span{
+    color:#1DDAF2;
+            }
+            
+        }
+        p{
+            color:white;
+            font-size:2.3em;
+        font-weight:bolder;
+        text-align: left;;
+        }
+        #button{
+            color:grey;
+            font-weight:bolder;
+            background-color: white;
+            border-radius:10px;
+            font-size:1em;
+            float:left;
+            color:black;
+            padding-top:5%;
+            padding-bottom:5%;
+            padding-left:5%;
+            padding-right:5%;
+            
+    
+        }
+        
+    }
+    }
+    
+    
+    
+    #box2{
+        width:65%;
+        border-radius:50px;
+        margin-top:5%;
+        background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
+        background-image: linear-gradient(to bottom right, #0f0f0f, rgba(235, 231, 231, 0));
+        background-image: linear-gradient(to bottom right,black, rgba(235, 231, 231, 0));
+        background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+        
+        
+      border:2px solid white;
+        min-height: 60vh;;
+        padding-bottom: 5%;;
+    float:left;;
+    margin-right:5%;
+    #img1rfid{
+        width:70%;
+        
+        margin-top:5%;
+        height: 45%;;
+        margin-bottom: 5%;;
+    }
+    #para{
+        margin-left:15%;
+        
+        h1{
+            color:white;
+            font-size:2em;
+            text-align: left;;
+            span{
+    color:#1DDAF2;
+            }
+            
+        }
+        p{
+            color:white;
+            font-size:2.3em;
+        font-weight:bolder;
+        text-align: left;;
+        }
+        #button{
+            color:grey;
+            font-weight:bolder;
+            background-color: white;
+            border-radius:10px;
+            float:left;
+            color:black;
+            padding-top:5%;
+            padding-bottom:5%;
+            padding-left:5%;
+            padding-right:5%;
+            
+    
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    }
+    
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and ( min-width:576px) and (max-width:996px){
+        #integrated{
+            background-image: url('./fixedbg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:100vh;
+            width:100vw;
+        .paradiv{
+            
+             width:100%;
+        margin-top:15vh;
+            h1{
+             font-size:2em;   
+            }
+            p{
+                font-size:1.1em;
+        font-weight: 100;;width:50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+            }
+        }
+        
+        #box1{
+            width:80%;
+            border-radius:50px;
+            margin-top:0px;
+            background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
+            background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+        
+          border:2px solid white;
+            height: 60vh;;
+        float:right;
+        margin-right:5%;
+        #img1rfid{
+            width:70%;
+            margin-left:15%;
+            margin-top:5%;
+            height: 45%;;
+            margin-bottom: 5%;;
+        }
+        #para{
+            margin-left:15%;
+            
+            h1{
+                color:white;
+                font-size:1.5em;
+                text-align: left;;
+                span{
+        color:#1DDAF2;
+                }
+                
+            }
+            p{
+                color:white;
+                font-size:1.8em;
+            font-weight:bolder;
+            text-align: left;;
+            }
+            #button{
+                color:grey;
+                font-weight:bolder;
+                background-color: white;
+                border-radius:10px;
+                font-size:1em;
+                float:left;
+                color:black;
+                padding-top:5%;
+                padding-bottom:5%;
+                padding-left:5%;
+                padding-right:5%;
+                
+        
+            }
+            
+        }
+        }
+        
+        
+        
+        #box2{
+            width:80%;
+            border-radius:50px;
+            margin-top:0px;
+            background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
+            background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+        
+          border:2px solid white;
+            height: 60vh;;
+        float:left;;
+        
+        #img1rfid{
+            width:70%;
+            margin-left:15%;
+            margin-top:5%;
+            height: 45%;;
+            margin-bottom: 5%;;
+        }
+        #para{
+            margin-left:15%;
+            
+            
+            h1{
+                color:white;
+                font-size:1.5em;
+                text-align: left;;
+                span{
+        color:#1DDAF2;
+                }
+                
+            }
+            p{
+                color:white;
+                font-size:1.8em;
+            font-weight:bolder;
+            text-align: left;;
+            }
+            #button{
+                color:grey;
+                font-weight:bolder;
+                background-color: white;
+                border-radius:10px;
+                float:left;
+                color:black;
+                padding-top:5%;
+                padding-bottom:5%;
+                padding-left:5%;
+                padding-right:5%;
+                
+        
+            }
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        }
+        
+        
+        }
+        
+        }
+    
+    
+    
+    
+    
+    
+    
+        
+    @media screen and  (max-width:576px){
+        #integrated{
+            background-image: url('./fixedbg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:140vh;
+            width:100vw;
+        .paradiv{
+            
+             width:100%;
+        margin-top:5vh;
+            h1{
+             font-size:2em;   
+            }
+            p{
+                font-size:0.9em;
+        font-weight: 100;;
+            }
+        }
+        
+        #box1{
+            width:90%;
+            border-radius:50px;
+            margin-top:0px;
+            background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
+            background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+        
+          border:2px solid white;
+            height: 50vh;;
+        
+        margin-left:5%;
+        #img1rfid{
+            width:70%;
+            
+            margin-top:5%;
+            height: 45%;;
+            
+        }
+        #para{
+            margin-left:15%;
+            margin-top:10px;
+
+            
+            
+            h1{
+                color:white;
+                font-size:1.2em;
+                text-align: left;;
+                span{
+        color:#1DDAF2;
+                }
+                
+            }
+            p{
+                color:white;
+                font-size:1.5em;
+            font-weight:bolder;
+            text-align: left;;
+            }
+            #button{
+                color:grey;
+                font-weight:bolder;
+                background-color: white;
+                border-radius:10px;
+                font-size:0.8em;
+
+                float:left;
+                color:black;
+                padding-top:5%;
+                padding-bottom:5%;
+                padding-left:5%;
+                padding-right:5%;
+                
+        
+            }
+            
+        }
+        }
+        
+        
+        
+        #box2{
+            width:90%;
+            border-radius:50px;
+            margin-top:0px;
+            background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
+            background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+            height: 80vh;;
+        
+          border:2px solid white;
+            height: 55vh;;
+        margin-left:5%;
+        
+        #img1rfid{
+            width:70%;
+            
+            margin-top:5%;
+            height: 45%;;
+            margin-bottom: 5%;;
+        }
+        #para{
+            margin-left:15%;
+            margin-top:10px;
+            
+            
+            h1{
+                color:white;
+                font-size:1.2em;
+                text-align: left;;
+                span{
+        color:#1DDAF2;
+                }
+                
+            }
+            p{
+                color:white;
+                font-size:1.5em;
+            font-weight:bolder;
+            text-align: left;;
+            }
+            #button{
+                color:grey;
+                font-weight:bolder;
+                background-color: white;
+                border-radius:10px;
+                float:left;
+                color:black;
+                padding-top:5%;
+                padding-bottom:5%;
+                padding-left:5%;
+                padding-right:5%;
+                font-size:0.8em;
+                
+        
+            }
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        }
+        
+        
+        }
+        
+        }

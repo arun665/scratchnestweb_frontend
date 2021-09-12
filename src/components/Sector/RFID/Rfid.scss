@@ -1,0 +1,311 @@
+@media screen and(min-width:996px){
+#rfidSec{
+
+    .div1{
+        height:100vh;
+        background-color: black;;
+width:100vw;
+        #nesteddiv1{
+margin-top:30vh;
+margin-left:10%;
+
+width:70%;
+text-align: left;;
+            h1{
+                font-size:2.5em;
+                color:white;
+                span{
+                    color:#1DDAF2;
+                }
+            }
+
+            h2{
+                font-size:4.5em;
+                font-weight:600;
+                font-family: 'Montserrat', sans-serif;
+                color:white;
+            }
+            p{
+                font-size:1.5em;
+                color:white;
+
+            }
+        }
+    }
+    #img2{
+        
+        display: none;
+        float:left;
+        
+        width:100%;
+    }
+    #phonep{
+        display: none;
+    }
+#img1{
+    max-width:100%;
+    margin-top:15vh;
+    float:left;
+    float:left;
+        
+    height:80vh;
+}
+
+#row2{
+    height:100vh;
+       
+   width:100vw;
+      background-image: url('https://i.ibb.co/fHSj7tS/k-Z5y029nc-Zjbk-OZDo-QIh-BOKgdx-LGy-Py-Ekxkt-DUox-Mnjf-Hc-OBOc5-FVw-LVu-Ncuc-AVy-G8-E-w1200-h630-p.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: left;
+      font-family: 'Noto Sans', sans-serif;
+      
+
+
+  }
+
+  #div2{
+    margin-top:30vh;
+margin-left:10%;
+width:80%;
+
+    h1{
+        font-size:3em;
+        color:black;
+        font-weight: bolder;
+    }
+
+    p{
+      font-weight: 400;
+      text-align:justify;
+        font-size:1.2em;
+    }
+}
+  
+#div2img{
+    margin-top:30vh;
+    max-width:100%;
+    text-align: center;
+    margin-left:auto;
+margin-right:auto;
+margin-left: 20%;;
+}
+    
+}
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:996px){
+    #rfidSec{
+    
+        .div1{
+            height:100vh;
+            background-color: black;;
+    width:100vw;
+            #nesteddiv1{
+    margin-top:30vh;
+    margin-left:10%;
+    width:70%;
+    text-align: left;;
+                h1{
+                    font-size:2em;
+                    color:white;
+                    span{
+                        color:#1DDAF2;
+                    }
+                }
+    
+                h2{
+                    font-size:3.5em;
+                    font-weight:600;
+                    font-family: 'Montserrat', sans-serif;
+                    color:white;
+                }
+                p{
+                    font-size:1.2em;
+                    color:white;
+    
+                }
+            }
+        }
+    #img1{
+        margin-top:20vh;
+        float:left;
+        height:80vh;
+        width:100%;
+    }
+    #img2{
+        
+        display: none;
+        float:left;
+        
+        width:100%;
+    }
+    #phonep{
+        display: none;
+    }
+        
+
+
+    #row2{
+      
+        height:100vh;
+        width:100vw;
+          background-image: url('https://i.ibb.co/fHSj7tS/k-Z5y029nc-Zjbk-OZDo-QIh-BOKgdx-LGy-Py-Ekxkt-DUox-Mnjf-Hc-OBOc5-FVw-LVu-Ncuc-AVy-G8-E-w1200-h630-p.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: left;
+          font-family: 'Noto Sans', sans-serif;
+          
+    
+    
+      }
+    
+      #div2{
+          margin-top:20vh;
+    margin-left:10%;
+    width:90%;
+
+          h1{
+              font-size:2em;
+              color:black;
+              font-weight: bolder;
+          }
+    
+          p{
+            font-weight: 400;
+          
+              font-size:1em;
+          }
+          
+      }
+      
+      #div2img{
+        margin-top:30vh;
+        
+        text-align: center;
+        margin-left:auto;
+    margin-right:auto;
+    margin-left: 10%;;
+    max-width:100%;
+    
+    }
+
+    }
+    }
+    
+    
+
+    
+@media screen and (max-width:576px) {
+    #rfidSec{
+    
+        .div1{
+            height:100vh;
+            background-color: black;;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+    width:100vw;
+            #nesteddiv1{
+    margin-top:15vh;
+    margin-left:5%;
+    width:80%;
+    text-align: left;;
+                h1{
+                    font-size:1.5em;
+                    color:white;
+                    span{
+                        color:#1DDAF2;
+                    }
+                }
+    
+                h2{
+                    font-size:3em;
+                    font-weight:600;
+                    font-family: 'Montserrat', sans-serif;
+                    color:white;
+                }
+                p{
+                    font-size:0.9em;
+                    color:white;
+     
+     display:none;
+                }
+            }
+        }
+        #img1{
+            display: none;
+        }
+        #phonep{
+            color: white;
+            font-size:1em;
+            text-align: left;;
+            margin-left:5%;
+            margin-top:0vh;
+        }
+    #img2{
+        
+        
+        float:left;
+        
+        width:100%;
+    }
+
+
+
+    
+    #row2{
+      
+        height:100vh;
+        width:100vw;
+          background-image: url('./row2mobile.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: left;
+          font-family: 'Noto Sans', sans-serif;
+          
+    
+    
+      }
+    
+      #div2{
+          margin-top:10%;
+    margin-left:5%;
+    width:95%;
+
+          h1{
+              font-size:1.8em;
+              color:black;
+              font-weight: bolder;
+          }
+    
+          p{
+            font-weight: 400;
+          
+              font-size:0.9em;
+          }
+      }
+      #div2img{
+        margin-top:2vh;
+        
+        text-align: center;
+        margin-left:auto;
+    margin-right:auto;
+    margin-left: 25%;;
+        width:50%;
+}
+
+
+        
+    }
+    }
+    
+    
+    
+
+    

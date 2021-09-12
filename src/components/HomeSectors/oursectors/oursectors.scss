@@ -1,0 +1,57 @@
+.oursectors{
+
+
+    height:40vh;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 12vh;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    h1{
+        font-size:2.2em;
+        font-family: 'Noto Sans JP', sans-serif;
+    
+    }
+    p{
+        font-family: 'Noto Sans JP', sans-serif;
+    
+        font-size:1.2em;
+    }
+ 
+
+}
+
+
+@media screen and (max-width:576px) {
+    
+.oursectors{
+
+
+    height:30vh;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 9vh;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    h1{
+        font-size:1.5em;
+        font-family: 'Noto Sans JP', sans-serif;
+    
+    }
+    p{
+        font-family: 'Noto Sans JP', sans-serif;
+    padding-left:5%;
+    padding-right:5%;
+        font-size:0.9em;
+    }
+ 
+
+}
+
+}

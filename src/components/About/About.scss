@@ -1,0 +1,192 @@
+
+@media screen and (min-width:996px){
+#about{
+
+
+
+    #outdiv1{
+        background-image: url('./bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+#div1{
+ 
+    padding-top:20vh;
+    padding-bottom:10vh;
+width:80%;
+margin-left:10%;;
+    #heading{
+text-align: left;
+
+        h1{
+            font-size:4em;
+            font-weight:bold;
+            background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            text-align: justify;
+            font-size:1.3em;
+        }
+    }    #img{
+            width:95%;
+            margin-top:10vh;
+            margin-left:5%;
+        }
+
+
+        #heading2{
+            text-align: left;
+            margin-top:5vh;width:90%;
+                    h1{
+                        font-size:2em;
+                        font-weight:bold;
+                        background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+            
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                    p{
+                  text-align: justify;
+                        font-size:1em;
+                    }
+                }
+    
+}
+
+}
+
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:996px){
+    #about{
+
+
+    #outdiv1{
+        background-image: url('./bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #div1{
+    
+        padding-top:20vh;
+        padding-bottom:10vh;
+      
+    
+        #heading{
+    text-align: left;
+    
+            h1{
+                font-size:2em;
+                font-weight:bold;
+                background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+    
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p{
+                text-align: justify;
+                font-size:1.1em;
+            }
+        }    #img{
+                width:90%;
+                margin-left:5%;
+            }
+    
+    
+            #heading2{
+                text-align: left;
+                margin-top:5vh;width:95%;
+                        h1{
+                            font-size:1.5em;
+                            font-weight:bold;
+                            background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+                
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                        p{
+                      
+                            font-size:0.9em;
+                        }
+                    }
+        
+    }
+    
+    }
+    
+    }
+
+
+
+
+
+
+    
+@media screen and (max-width:576px){
+    #about{
+  
+        
+    #outdiv1{
+        background-image: url('./bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #div1{
+    
+        padding-top:15vh;
+        padding-bottom:0vh;
+      
+    
+        #heading{
+    text-align: left;
+    
+            h1{
+                font-size:1.5em;
+                font-weight:bold;
+                background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+    
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p{
+                text-align: justify;
+                font-size:0.9em;
+            }
+        }    #img{
+                width:90%;
+                margin-left:5%;
+            }
+    
+    
+            #heading2{
+                text-align: left;
+                margin-top:5vh;width:90%;
+                margin-left:5%;
+                        h1{
+                            font-size:1.5em;
+                            font-weight:bold;
+                            background:  linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+                
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                        p{
+                      
+                            font-size:0.9em;
+                        }
+                    }
+        
+    }
+    
+    }
+    
+    }

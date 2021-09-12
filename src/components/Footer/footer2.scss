@@ -1,0 +1,341 @@
+@media (min-width: 576px) {
+
+.footer2{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    background-color: #1B1B1B;
+    width:100vw;
+    padding:4%;
+    color:white;
+
+    .logofooter{
+        width:100%;   
+        margin-top:10%;
+    }
+    #footerp{
+        width:100%;
+        text-align: center;
+        font-size:1em;
+        margin-left:auto;
+    margin-top:3%;
+margin-right:auto;
+    }
+    .fa {
+        padding-right: 50px;
+        padding-left:0px;
+        font-size: 30px;
+        width: 50px;
+        text-align: left;
+        text-decoration: none;
+        margin: 5px 0px;
+        color:white;
+      }
+
+      .btn:hover{
+          border:0px solid black;
+      }
+      a:hover{
+          border:0px solid black;
+          
+      }
+      .btn:onclick{
+          border:0px;
+      }
+
+      #subheading{
+          font-size:1.8em;
+          font-family: 'Noto Sans JP', sans-serif;
+          font-weight: bold;
+          color: #1EDAF2;
+          text-align: left;
+            
+          font-family: 'Noto Sans JP', sans-serif;
+      }
+      .secondcol{
+          padding-left:5%;
+      }
+
+      .list1{
+
+li{
+    font-size:1.1em;
+    text-align: left;
+            
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+
+}
+     
+    }
+
+
+    .addresscol{
+        padding-left:5%;
+
+        p{
+            font-size:1.1em;
+            text-align: left;
+
+        }
+    }
+    .sectorcol{
+        padding-left: 7%;
+    }
+    a{
+        text-align:left;
+float:left;
+    }
+    #addressheading{
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #1EDAF2;
+        text-align: left;
+        
+        align-items:left;
+        
+        font-size:2.5em;
+        font-weight: bold;
+
+    }
+    #addressheading:hover{
+        text-decoration: none;
+        cursor:pointer;
+
+    }
+
+    
+
+}
+
+
+
+}
+
+
+
+@media (max-width: 996px) and (min-width:576px) {
+
+    .footer2{
+        font-family: 'Noto Sans JP', sans-serif;
+        
+        background-color: #1B1B1B;
+        width:100vw;
+        padding:5%;
+        color:white;
+    
+        .logofooter{
+            width:100%;   
+            margin-top:10%;
+        }
+        #footerp{
+            width:100%;
+            text-align: center;
+            font-size:1.2em;
+            margin-left:auto;
+            margin-top:3%;
+    margin-right:auto;
+        }
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            color:white;
+          }
+    
+          .btn:hover{
+              border:0px solid black;
+          }
+          a:hover{
+              border:0px solid black;
+              
+          }
+          .btn:onclick{
+              border:0px;
+          }
+    
+          #subheading{
+              font-size:1.6em;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-weight: bold;
+              color: #1EDAF2;
+              font-family: 'Noto Sans JP', sans-serif;
+          }
+          .secondcol{
+              padding-left:5%;
+          }
+    
+          .list1{
+    
+    li{
+        font-size:1.1em;
+    }
+    
+    a:hover{
+        text-decoration: none;
+        color:white;
+    
+    }
+         
+        }
+    
+    
+        .addresscol{
+            padding-left:5%;
+    
+            p{
+                font-size:1.1em;
+            }
+        }
+        .sectorcol{
+            padding-left: 7%;
+        }
+        #addressheading{
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #1EDAF2;
+        
+            font-size:2em;
+            font-weight: bold;
+    
+        }
+    
+        
+    
+    }
+    
+    
+    
+    }
+
+@media (max-width: 576px) {
+  
+
+
+    .footer2{
+        font-family: 'Noto Sans JP', sans-serif;
+    
+        background-color: #1B1B1B;
+        width:100vw;
+        padding:3%;
+        color:white;
+    
+        .logofooter{
+            width:70%;   
+            margin-top:10%;
+            float:left;
+      
+        }
+        
+        .fa {
+        
+            padding:0px;
+            
+            padding-right: 15px;
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 5px;
+            color:white;
+            margin-top:50%;
+            
+            float:left;
+        
+          }
+    
+          .btn:hover{
+              border:0px solid black;
+          }
+          a:hover{
+              border:0px solid black;
+              
+          }
+          .btn:onclick{
+              border:0px;
+          }
+    
+          #subheading{
+              font-size:1.2em;
+              font-weight: bold;
+              color: #1EDAF2;
+              font-family: 'Noto Sans JP', sans-serif;
+              font-family: 'Noto Sans JP', sans-serif;
+
+              text-align: left;;
+         
+            }
+          .secondcol{
+              padding-left:0%;
+              margin-top:10%;
+            
+          }
+          #footerp{
+            width:100%;
+            text-align: center;
+            font-size:0.6em;
+            margin-left:auto;
+            margin-top:3%;
+    margin-right:auto;
+        }
+          .list1{
+    
+    li{
+        font-size:0.9em;
+        text-align: left;;
+        margin-top:0px;
+         
+    }
+    
+    a:hover{
+        text-decoration: none;
+        color:white;
+    
+    }
+         
+        }
+    
+    
+        .addresscol{
+            padding-left:5%;
+    
+            p{
+                font-size:0.9em;
+                text-align: left;;
+         
+            }
+        }
+        .sectorcol{
+            margin-top:5%;
+
+            padding-left: 2%;
+        }
+        #addressheading{
+            margin-top:5%;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #1EDAF2;
+            text-align: left;;
+         
+            font-size:1.2em;
+            font-weight: bold;
+            font-family: 'Noto Sans JP', sans-serif;
+    
+    
+        }
+        .btn-group{
+            margin-left:0px;
+            float:left;
+            width:100%;
+            margin-top:5%;
+        }
+    
+        
+    
+    }
+    
+
+
+}

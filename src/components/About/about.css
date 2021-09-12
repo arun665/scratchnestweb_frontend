@@ -1,0 +1,661 @@
+.About {
+  background: black;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+.meet_us_row {
+  height: 50vh;
+}
+.Footer_about > .Footer {
+  position: relative;
+  top: -12rem;
+  left: -10px;
+  height: 44vh;
+  background: black;
+  width: 100vw;
+}
+.about_top {
+  text-align: center;
+  justify-content: center;
+  margin-top: 83px;
+  height: 157px;
+  background: linear-gradient(rgba(39, 37, 37, 0.5), rgba(102, 91, 91, 0.8)),
+    url("https://res.cloudinary.com/dpysmqax5/image/upload/v1616916215/about_us_qx2bis.jpg");
+}
+.abhijeet {
+  height: 24.5rem !important;
+}
+.content_meet {
+  width: 100%;
+  height: 54vh;
+}
+#ab_top_img {
+  position: relative;
+  overflow: hidden;
+}
+#ab_top_img::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url("https://res.cloudinary.com/dpysmqax5/image/upload/v1616916215/about_us_qx2bis.jpg")
+    0 0 repeat;
+  transform: rotate(30deg);
+}
+--bullet-background {
+  color: #6d6363;
+}
+.bl {
+  color: black;
+}
+.about_heading {
+  align-self: center;
+  /* background: url("https://res.cloudinary.com/dpysmqax5/image/upload/v1615808923/website-developmen-company-in-hadpasar1_r6lmqq.png"); */
+}
+.heading_about {
+  font-family: sans-serif;
+  font-size: 36px;
+}
+.about_a1 {
+  margin-top: 86px;
+  justify-content: space-around;
+  height: 40vh;
+}
+.image_ab {
+  background: linear-gradient(rgba(39, 37, 37, 0.5), rgba(102, 91, 91, 0.8)),
+    url("https://res.cloudinary.com/dpysmqax5/image/upload/v1619962696/our_origin-1_o4uzsa.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ostext_in {
+  padding-top: 82px;
+}
+.image_ab_wwd {
+  background: linear-gradient(rgba(39, 37, 37, 0.5), rgba(102, 91, 91, 0.8)),
+    url("https://res.cloudinary.com/dpysmqax5/image/upload/v1619041012/all_done.._i1fbep.jpg");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info_text {
+  color: yellowgreen;
+  margin-left: 98px;
+}
+.bdr_row {
+  justify-content: space-around;
+  width: 350px;
+  margin-left: 310px;
+}
+.meetus_row {
+  justify-content: center;
+  height: 100vh;
+}
+.bdr_meet_head {
+  border-top: 15px solid rgb(141 104 13);
+}
+.meet_h {
+  text-align: center;
+  font-size: 41px;
+}
+.image_ab_vision {
+  background: linear-gradient(rgba(39, 37, 37, 0.5), rgba(102, 91, 91, 0.8)),
+    url("https://res.cloudinary.com/dpysmqax5/image/upload/v1619962693/our_vision_iulius.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.adj_mohit {
+  margin-top: 19px;
+}
+.image_ab_why {
+  background: linear-gradient(rgba(39, 37, 37, 0.5), rgba(102, 91, 91, 0.8)),
+    url("https://res.cloudinary.com/dpysmqax5/image/upload/v1619822570/new_why_usssssss_xp1tjk.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -220px;
+}
+.ov_abt {
+  margin-left: -5px;
+}
+
+.a_top {
+  margin-top: 263px !important;
+}
+.whyslide_lef {
+  margin-left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+.a_container {
+  margin-left: 62px;
+}
+.slides_abt_a {
+  margin-left: 81px !important;
+}
+.os_text {
+  margin-top: -13px !important;
+  margin-left: -79px !important;
+}
+.our_story {
+  font-size: 50px;
+  font-family: cursive;
+  margin-top: 14rem;
+  background: linear-gradient(45deg, #6d6363, transparent);
+  text-align: center;
+}
+
+/* Our Team
+-------------------------------------------------------*/
+
+.text-intro {
+  text-align: center;
+}
+.text-row-intro {
+  justify-content: center;
+}
+.container_about {
+  margin-top: -42px;
+}
+.our-team .team-row {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.team-row {
+  display: flex;
+}
+
+.our-team .team-wrap {
+  padding: 0 40px;
+}
+
+.our-team .container-fluid {
+  padding: 0 50px;
+}
+
+.team-img img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  width: 20%;
+}
+
+.team-member,
+.team-img {
+  position: relative;
+  overflow: hidden;
+}
+.socio_footer {
+  top: 58px !important;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  position: absolute;
+  left: 603px;
+}
+.team-member {
+  width: 80%;
+}
+.Footer_about {
+  position: relative;
+  top: 28px;
+  left: -10px;
+  height: 25vh;
+  background: black;
+  width: 100vw;
+}
+.team-img img {
+  width: 100% !important;
+}
+
+.team-title {
+  margin: 30px 0 7px;
+}
+
+.overlay {
+  background-color: rgba(20, 20, 20, 0.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-details {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-details p {
+  color: #fff;
+}
+
+.team-img:hover .team-details {
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.team-img:hover .overlay {
+  opacity: 1;
+}
+
+.socials a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.socials i {
+  line-height: 37px;
+  color: #616161;
+  font-size: 14px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.team-details .socials i {
+  color: #fff;
+}
+
+.socials a:hover i {
+  color: #fff;
+  background-color: #355c7d;
+}
+
+@media screen and (max-width: 699px) {
+  .slider_mob {
+    width: 100%;
+    height: 100%;
+  }
+  .drkps {
+    height: 15rem;
+  }
+  .content_meet {
+    width: 100%;
+    height: 48vh;
+  }
+  .os_text {
+    margin-top: -13px !important;
+    margin-left: -13px !important;
+  }
+  .rohan_meet_row {
+    width: 100% !important;
+  }
+  #oo_img {
+    margin-left: 193px;
+    transform: scale(1.4, 0.4);
+    top: -15rem;
+    left: -11rem;
+    min-width: 47%;
+    height: 188%;
+  }
+  .Footer_about {
+    position: relative;
+    top: -17rem;
+    left: -10px;
+    height: 25vh;
+    background: black;
+    width: 100vw;
+  }
+  .abhijeet {
+    display: none;
+  }
+  .abhijeet_text {
+    display: none;
+  }
+  .name_text_about {
+    width: 100%;
+  }
+  .text-intro {
+    text-align: center;
+    min-width: 10rem;
+  }
+  .meet_slider {
+    top: -35rem;
+  }
+  .whyslide_lef {
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+  }
+
+  #person_slider_abt {
+    margin-left: 0;
+    height: 50vh;
+    width: 100vw;
+    background: black;
+  }
+
+  .our_story {
+    font-size: 36px;
+    font-family: cursive;
+    margin-top: 219px;
+    background: linear-gradient(45deg, #6d6363, transparent);
+    text-align: center;
+  }
+  #wwd_row_a {
+    margin-top: 284px !important;
+  }
+  #oo_text {
+    transform: scale(0.89);
+    height: 100%;
+    min-width: 102%;
+    left: -11rem;
+    top: -39rem;
+  }
+  #wu_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -55rem;
+    left: -12rem;
+    min-width: 47%;
+    height: 188%;
+  }
+  #wu_head_text {
+    font-size: 50px;
+    margin-left: -17rem;
+  }
+  #wu_content {
+    height: 46%;
+    min-width: 88%;
+  }
+  #wu_inside_txt {
+    transform: scale(0.5);
+    min-width: 197%;
+    margin-left: 3rem;
+    margin-top: -5rem;
+  }
+  .whyslide_lef > .swiper-pagination {
+    display: none;
+  }
+  #wwd_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -33rem;
+    left: -12rem;
+    min-width: 47%;
+    height: 188%;
+  }
+  #ov_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -33rem;
+    left: -12rem;
+    min-width: 47%;
+    height: 188%;
+  }
+  #ov_text {
+    top: -56rem;
+    min-width: 37rem;
+    left: -8rem;
+  }
+  .meet_us_row {
+    height: 100%;
+    width: 100%;
+    margin-left: 4rem;
+    margin-top: 18rem;
+  }
+  .silde_wwd {
+    width: 119% !important;
+    margin-left: -14rem;
+  }
+  .meet_us {
+    transform: scale(0.5);
+    min-width: 99rem;
+    top: -35rem;
+  }
+
+  #wwd_text {
+    margin-top: 3rem !important;
+    margin-left: -19rem !important;
+
+    height: 3%;
+
+    min-width: 75% !important;
+    position: absolute;
+  }
+  .Footer_about > .Footer > .footergrid > .menu_foot > .menus_quicklink3 {
+    top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: absolute;
+    left: 20rem;
+    transform: scale(0.7);
+    min-width: 26rem;
+  }
+  .Footer_about > .Footer > .footergrid > .menu_foot > .menus_quicklink2 {
+    transform: scale(0.8);
+    top: -18rem;
+    left: 11rem;
+  }
+
+  .Footer_about > .Footer > .footergrid > .menu_foot > .secpages_heading {
+    top: -14.5rem;
+    left: 13rem;
+    transform: scale(0.6);
+    min-width: 33rem;
+  }
+  .ostext_in {
+    transform: scale(0.5);
+    height: 100%;
+    min-width: 160%;
+    left: 33px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .Footer_about > .Footer > .footergrid > .logo_footer {
+    margin-left: 10rem;
+    transform: scale(1);
+  }
+  .Footer_about > .Footer > .footergrid > .menu_foot > .menus_quicklink {
+    top: 3rem;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    left: -16rem;
+    height: 15rem;
+    justify-content: space-between;
+    transform: scale(0.7);
+  }
+  .Footer_about > .Footer > .footergrid > .menu_foot > .menus_quicklink2 {
+    transform: scale(0.8);
+    top: -18rem;
+    left: 8.5rem;
+  }
+  .Footer_about > .Footer > .footergrid > .menu_foot > .menus_quicklink3 {
+    top: 38.5rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: absolute;
+    left: 6rem;
+    transform: scale(0.7);
+    min-width: 26rem;
+  }
+  .f_l {
+    transform: scale(4);
+    margin-left: 37px;
+  }
+
+  .Footer_about > .Footer > .footergrid > .Address_row > .adress_text_mb {
+    top: -1rem;
+    min-width: 48rem;
+    left: 30rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #wwd_text {
+    margin-top: 10rem !important;
+    margin-left: -17rem !important;
+    height: 3%;
+    min-width: 75% !important;
+    position: absolute;
+  }
+  #wwd_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -27rem;
+    left: -12rem;
+    min-width: 47%;
+    height: 188%;
+  }
+
+  #meet_row2 {
+    width: 337px;
+    margin-left: 0rem;
+  }
+
+  .meet_slider {
+    top: -35rem;
+    margin-left: -5rem;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  #oo_text {
+    transform: scale(0.89);
+    height: 100%;
+    min-width: 107%;
+    left: -9rem;
+    top: -39rem;
+  }
+  .team-title {
+    word-break: break-word;
+    font-size: 1.8rem;
+  }
+  .name_text_about {
+    width: 100%;
+    font-size: 14px;
+  }
+  .sujlef {
+    margin-left: 10rem;
+  }
+  .firmlef {
+    margin-left: 5rem;
+  }
+  .tme {
+    height: 14rem !important ;
+  }
+  .mrg {
+    margin-left: 7rem;
+  }
+  .silde_wwd {
+    width: 119% !important;
+    margin-left: -10rem;
+  }
+  .slides_abt_a {
+    margin-left: 69px !important;
+  }
+  #oo_img {
+    margin-left: 193px;
+    transform: scale(1.4, 0.4);
+    top: -15rem;
+    left: -11rem;
+    min-width: 58%;
+    height: 188%;
+  }
+  #wwd_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -27rem;
+    left: -12rem;
+    min-width: 57%;
+    height: 188%;
+  }
+  #ov_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -33rem;
+    left: -12rem;
+    min-width: 62%;
+    height: 188%;
+  }
+  #ov_text {
+    top: -56rem;
+    min-width: 33rem;
+    left: -9rem;
+  }
+  #wu_img {
+    margin-left: 21rem;
+    transform: scale(1.4, 0.4);
+    top: -55rem;
+    left: -12rem;
+    min-width: 59%;
+    height: 188%;
+  }
+  .rohan_meet_row {
+    width: 300px !important;
+  }
+}
+
+@media (min-width: 2500px) and (max-width: 2700px) {
+  .bdr_row {
+    justify-content: space-around;
+    width: 350px;
+    margin-left: 67rem;
+  }
+
+  .socio_footer {
+    top: 14rem !important;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: absolute;
+    left: 108rem;
+  }
+
+  .abhijeet {
+    height: 41.5rem !important;
+  }
+  .logo_footer {
+    margin-left: 80px;
+  }
+  .ostext_in {
+    padding-top: 82px;
+    font-size: 4rem;
+  }
+
+  .Footer_about > .Footer {
+    position: relative;
+    top: -12rem;
+    left: -10px;
+    height: 44vh;
+    background: black;
+    width: 101vw;
+  }
+}

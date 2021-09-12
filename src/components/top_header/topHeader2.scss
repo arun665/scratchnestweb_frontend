@@ -1,0 +1,581 @@
+
+.topheader2 {
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+  }
+  
+  @media screen and (min-width:996px){
+   
+  .topheader2{
+    
+  .navbar{
+    background-color: #484949;
+  }
+  .nav-item{
+      padding:1%;
+  }
+  a{
+    font-size:1.1em;
+    color:white;
+    float:left;
+  }
+  .dropdown-item{
+    font-size:1em;
+  }
+  .logofooter{
+    width:200px;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:10%;
+  }
+  
+  #brand{
+    font-family: 'Noto Sans', sans-serif;
+  margin-left:1%;
+  margin-right:1%;
+  color:white;
+  }
+  ul{
+    list-style-type:none;
+  }
+  #branddiv{
+    margin-left:10%;;
+   width:40%;
+   margin-top: auto;
+   margin-bottom: auto;
+   li{
+     margin-left:0px;
+     margin-right:0px;
+     float:left;
+    
+    }
+a:hover{
+    
+    color:#1DDAF2;
+  }
+
+  }
+  table{
+    width:100%;
+  }
+  #btn{
+  float:right;
+  
+  margin-right:1%;
+  margin-left:10%;
+  font-size:1.1em;
+  align-items: right;
+  background-color: #1DDAF2;
+  border-radius:20px;
+  padding:10px;
+  padding-left:30px;
+  padding-right:30px;
+  color:black;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  
+  }
+  #tempnav{
+    display: none;
+  }
+
+  #heading{
+      width:100%;
+  }
+  
+  #accordion{
+      width:100%;
+  button{
+      width:100%;
+  }
+  .card{
+      width: 100%;
+  }
+    }
+
+    .collapsibleNavbar{
+    
+        width:100%;
+        padding:1px;
+    }
+    #collapsibleNavbar{
+      border:2px solid white;
+width:25%;
+overflow: hidden;
+background-color: rgba(37, 34, 34, 0.9);
+border-radius:25px;
+margin:1%;
+float:right;
+padding:5px;
+
+#producthead{
+color:white;
+margin-top:3%;
+font-size:1.5em;
+
+}
+hr{
+  color:white;
+  width:120%;
+  background-color: white;
+}
+
+    }
+    .row2{
+        width:100%;
+
+     
+        .btn{
+            width:100%;
+        }
+
+        #ul1{
+          padding-left:10px;
+            float:left;
+            width:100%;
+            .heading1{
+                color:rgb(184, 180, 180);
+                font-size:1.2em;
+                padding:3%;;
+
+text-align: left;
+i{
+    padding-left:10px;
+    text-align:right;
+}
+
+            }
+            .heading1:hover{
+color:white;
+            }
+            a{
+                background: none;
+                border:0px solid white;
+                padding:0px;
+                text-align: left;width:100%;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            
+            .collapse{
+                text-align: left;
+                width:100%;
+li{
+  width:100%;
+}
+
+            }
+            
+            
+            li{
+          
+                color:grey;width:100%;
+                font-size: 1.1em;
+            padding:1%;
+            padding-left:10%;
+            width:100%;
+
+                transition:0.2s;
+                
+            }
+        
+            li:hover{
+                color:black;
+                color:#1DDAF2;
+             ;cursor:pointer;
+                padding:1%;
+                font-size:1.1em;padding-left:10%;
+            
+                
+
+            }
+
+        }
+      
+
+
+        li{
+          
+            color:grey;width:100%;
+            font-size: 1.1em;
+padding:0px;
+            
+        }
+
+    }
+
+  
+  }
+  
+  }
+  
+  @media screen and (min-width:576px) and (max-width:996px){
+    .topheader2
+  {  #branddiv{
+      margin-left:20%;;
+      width:auto;
+    }
+  
+  
+    .navbar{
+      background-color: #262727;
+    }
+    a{
+      font-size:1.1em;
+     color:white;
+      float:left;
+    }
+    .logofooter{
+      width:150px;
+      margin-top:4%;
+      margin-bottom:4%;
+      margin-left:10%;
+    }
+    
+    #brand{
+      font-family: 'Noto Sans', sans-serif;
+    margin-left:0%;
+    margin-right:0%;
+    color:white;
+    }
+    #branddiv{
+      margin-left:15%;;
+    }
+    #btn{
+    float:right;
+    
+    float:right;
+    margin-left:5%;
+    font-size:1.1em;
+    
+    align-items: right;
+    background-color: #1DDAF2;
+    border-radius:20px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    color:black;
+    font-family: 'Noto Sans', sans-serif;
+    display:none;
+    }
+  
+    ul{
+      list-style-type:none;
+    }
+    #branddiv{
+      display: none;;
+      margin-left:4%;;
+     width:50%;
+     margin-top: auto;
+     margin-bottom: auto;
+     color:white;
+     font-size:0.8em;
+     li{
+       margin-left:0px;
+       margin-right:0px;
+       color:white;
+  
+       float:left;
+     }
+    }
+    table{
+      width:100%;
+    }
+    #tempnav{
+      display: none;
+    }
+   
+    #collapsibleNavbar{
+      border:2px solid white;
+width:40%;
+overflow: hidden;
+background-color: rgb(37, 34, 34);
+border-radius:25px;
+margin:2%;
+float:right;
+padding:5px;
+
+#producthead{
+color:white;
+margin-top:3%;
+font-size:1.5em;
+
+}
+hr{
+  color:white;
+  width:120%;
+  background-color: white;
+}
+
+    }
+    
+    .row2{
+        width:100%;
+
+     
+        .btn{
+            width:100%;
+        }
+
+        #ul1{
+            float:left;
+            width:100%;
+            .heading1{
+                color:rgb(184, 180, 180);
+                font-size:1.1em;
+                padding:3%;;
+text-align: left;
+i{
+    padding-left:10px;
+    text-align:right;
+}
+
+            }
+            .heading1:hover{
+color:white;
+            }
+            a{
+                background: none;
+                border:0px solid white;
+                padding:0px;
+                text-align: left;width:100%;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            
+            .collapse{
+                text-align: left;
+                width:100%;
+            }
+            
+            
+            li{
+          
+                color:grey;width:100%;
+                font-size: 1em;
+            padding:1%;
+            padding-left:10%;
+            width:100%;
+
+                transition:0.2s;
+                
+            }
+        
+            li:hover{
+                color:black;
+                background-color:white;;cursor:pointer;
+                padding:1%;
+                font-size:1em;padding-left:10%;
+            
+                
+
+            }
+
+        }
+
+
+        li{
+          
+            color:grey;width:100%;
+            font-size: 1em;
+padding:0px;
+            
+        }
+
+    }
+    
+    #rightnav{
+        text-align:left;
+    }
+
+
+
+
+    
+  }
+  }
+  
+  @media screen and (max-width:576px){
+    .topheader2
+  {  
+    #branddiv{
+      margin-left:20%;;
+      width:auto;
+    }
+  
+  .phone{
+    float:left;
+  }
+    .navbar{
+      background-color: #262727;
+    }
+    ul{
+      float: left;;
+      text-align: left;;
+    }
+    a{
+      font-size:1em;
+      color:white;
+      float:left;
+    }
+    .logofooter{
+      width:150px;
+      margin-top:2%;
+      margin-bottom:2%;
+      margin-left:10%;
+    }
+    #branddiv{
+      display: none;
+    }
+    #brand{
+      font-family: 'Noto Sans', sans-serif;
+    margin-left:2%;
+    margin-right:2%;
+    color:white;
+    }
+    #branddiv{
+      margin-left:25%;;
+    }
+    #btn{
+    float:right;
+    right:50px;;
+    margin-right:2%;
+    font-size:1em;
+    align-items: right;
+    background-color: #1DDAF2;
+    border-radius:20px;
+    padding:5px;
+    padding-left:30px;
+    padding-right:30px;
+    color:black;
+    font-family: 'Noto Sans', sans-serif;
+    display: none;
+    }
+    
+    #tempnav{
+      display: block;
+      text-align: left;
+     
+      a{
+        text-align:left;
+        float: left;;
+      }
+      
+      ul{
+        text-align: left;
+     
+      }
+    }
+
+    #collapsibleNavbar{
+      border:2px solid white;
+width:80%;
+overflow: hidden;
+background-color: rgb(37, 34, 34);
+border-radius:25px;
+margin:2%;
+float:right;
+padding:5px;
+
+#producthead{
+color:white;
+margin-top:3%;
+font-size:1.5em;
+
+}
+hr{
+  color:white;
+  width:120%;
+  background-color: white;
+}
+
+    }
+
+    .row2{
+        width:100%;
+
+     
+        .btn{
+            width:100%;
+        }
+
+        #ul1{
+            float:left;
+            width:100%;
+            .heading1{
+                color:rgb(184, 180, 180);
+                font-size:1.1em;
+                padding:2%;;
+text-align: left;
+i{
+    padding-left:10px;
+    text-align:right;
+}
+
+            }
+            .heading1:hover{
+color:white;
+            }
+            a{
+                background: none;
+                border:0px solid white;
+                padding:0px;
+                text-align: left;width:100%;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            
+            .collapse{
+                text-align: left;
+                width:100%;
+            }
+            
+            
+            li{
+          
+                color:grey;width:100%;
+                font-size: 1em;
+            padding:1%;
+            padding-left:10%;
+            width:100%;
+
+                transition:0.2s;
+                
+            }
+        
+            li:hover{
+                color:black;
+                background-color:white;;cursor:pointer;
+                padding:1%;
+                font-size:1em;padding-left:10%;
+            
+                
+
+            }
+
+        }
+
+
+        li{
+          
+            color:grey;width:100%;
+            font-size: 1em;
+padding:0px;
+            
+        }
+
+    }
+
+  
+
+
+  }
+  }

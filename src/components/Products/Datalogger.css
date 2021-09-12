@@ -1,0 +1,965 @@
+html,
+body,
+h1,
+h2,
+h3,
+ion-text,
+ion-button,
+ion-col {
+  font-family: Helvetica !important;
+}
+.pdatalogger {
+  background: black;
+}
+
+.colmodal {
+  margin-left: 5rem;
+}
+
+.rowdl {
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  width: 102vw;
+}
+.imagedl {
+  width: 43%;
+  height: 108px;
+  margin: auto;
+  display: block;
+}
+.imgdl2 {
+  width: 30%;
+  height: 206px;
+}
+.imgdlsm {
+  text-align: center;
+  top: 60px;
+}
+.pgriddata {
+  margin-left: -1rem;
+}
+.ambient {
+  text-align: center;
+}
+.dltext {
+  font-size: large;
+  font-family: Helvetica;
+  font-weight: 800;
+}
+.colhow {
+  height: 77%;
+}
+
+.rowhow {
+  height: 118vh;
+  position: sticky;
+  float: left;
+  top: 0;
+  display: block;
+  margin-bottom: 58rem;
+}
+
+.texthwto {
+  width: 0;
+  font-size: 4rem;
+  margin-top: -16rem;
+  margin-left: 12px;
+}
+
+.Hwto {
+  position: absolute;
+  z-index: 9999999999999999;
+  top: 43rem;
+}
+.howtimg {
+  height: 36vh;
+  text-align: end;
+  top: 189px;
+  left: 141px;
+  position: sticky;
+  float: right;
+  margin-right: 0;
+  right: 0;
+  padding: 0;
+  margin-top: 125px;
+}
+.img_fix {
+  width: 453px;
+}
+.howtimgrow {
+  float: right;
+
+  margin-top: -593px;
+}
+.btnhw {
+  left: -275px;
+  top: 36px;
+}
+
+.aheading {
+  margin-top: 33px;
+  font-size: 4rem;
+  font-stretch: expanded;
+  font-family: Helvetica;
+  color: whitesmoke;
+}
+
+.btngallery {
+  top: 84px;
+  left: 182px;
+}
+
+.ambient {
+  top: 78px;
+}
+.bld {
+  font-weight: 800;
+  color: whitesmoke;
+}
+.bld_500 {
+  font-weight: 550;
+  color: whitesmoke;
+}
+.modal_spec_dl {
+  top: -109rem;
+}
+.modal_row {
+  background: black;
+}
+.full_ctntbl {
+  width: 50rem;
+}
+.contact_pr_dl {
+  margin-top: 377rem;
+  margin-left: 49rem;
+}
+.conatctRow {
+  min-width: 100%;
+}
+
+.icon_p_dl {
+  transform: scale(2.5);
+}
+.contact_footer_dlp {
+  background-color: black;
+  height: 30rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #aaa;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  min-height: 200px;
+  border: 2px #ccc solid;
+  color: #fff;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: Helvetica;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #1a1a1a;
+}
+.fslider {
+  top: 8rem;
+}
+.modal_spec_dl > .sc-ion-modal-ios {
+  overflow-y: auto !important;
+  background: linear-gradient(45deg, #f6f5f5, white);
+}
+.gallery-item {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
+  overflow: hidden;
+  height: 161px;
+  align-items: center;
+  font-family: Helvetica !important;
+  background: whitesmoke;
+  display: flex;
+  color: black;
+  padding: 2rem;
+  width: 26rem;
+  font-weight: 700;
+}
+.gallery-item_cg {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
+  overflow: hidden;
+  height: 161px;
+  align-items: center;
+  font-family: Helvetica !important;
+  background: lightgray;
+  display: flex;
+  color: white;
+  padding: 2rem;
+  width: 26rem;
+}
+.pd_6 {
+  padding: 6rem !important;
+}
+
+.gallery-item_f {
+  flex: 3 0 20rem;
+  margin: 2rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
+  overflow: hidden;
+  height: 161px;
+  align-items: center;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 24%;
+  height: 12rem;
+  font-size: 1.5rem;
+}
+
+.dlimg1_product {
+  float: left;
+  position: absolute;
+  margin-top: 176rem;
+}
+.dlimg2_product {
+  float: left;
+  position: absolute;
+  margin-top: 273rem;
+}
+.box {
+  width: 40%;
+  height: 200px;
+  background: orange;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.a {
+  margin: 120vh auto 0 auto;
+}
+.imgcol1_p {
+  min-width: 100vw;
+  height: 129vh;
+  position: relative;
+  background: url("https://res.cloudinary.com/dpysmqax5/image/upload/v1618949697/applications-1-01_cdlsf0.png");
+}
+.imgcol2_p {
+  min-width: 100vw;
+  height: 129vh;
+  position: relative;
+  background: url("https://res.cloudinary.com/dpysmqax5/image/upload/v1618949685/applications-1-02_vhbfze.png");
+}
+
+.containertable {
+  min-width: 81rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  height: 51vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.heading span {
+  display: block;
+}
+.sideimggallery {
+  height: 212px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+.contact_footer_dlp > .Footer {
+  position: relative;
+  top: 0rem;
+  left: -10px;
+  height: 25vh;
+  background: black;
+  width: 100vw;
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+table {
+  width: 56%;
+  border-collapse: collapse;
+  background: black;
+}
+.contact_tbl {
+  width: 74%;
+  border-collapse: collapse;
+  background: black;
+}
+
+th,
+td {
+  padding: 16px;
+}
+.show-more_spec {
+  padding: 12px 3px;
+  margin-left: 13rem;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background: gray;
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 6rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+div.text-container {
+  margin-left: -17rem;
+  width: 75%;
+}
+div.text-container_modal {
+  margin-left: 0rem;
+  width: 75%;
+}
+
+.hideContent {
+  overflow: hidden;
+  line-height: 1em;
+  height: 17em;
+  width: 40rem;
+}
+
+.showContent {
+  line-height: 1em;
+  height: auto;
+}
+.showContent {
+  height: auto;
+}
+.specside {
+  top: 86px !important;
+}
+
+h1 {
+  font-size: 24px;
+}
+p {
+  padding: 10px 0;
+}
+.show-more {
+  padding: 10px 0;
+  text-align: center;
+}
+.downloadcol {
+  margin-left: 159px;
+  text-align: center;
+  height: 50vh;
+}
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 0;
+  width: 80%;
+}
+td {
+  font-size: 14px;
+  width: 35rem;
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+  border: solid white;
+  background: fade(slategrey, 20%);
+}
+
+.Rtable--2cols > .Rtable-cell {
+  width: 50%;
+}
+.Rtable--3cols > .Rtable-cell {
+  width: 33.33%;
+}
+.Rtable--4cols > .Rtable-cell {
+  width: 25%;
+}
+.Rtable--5cols > .Rtable-cell {
+  width: 20%;
+}
+.Rtable--6cols > .Rtable-cell {
+  width: 16.6%;
+}
+
+.downloadF {
+  top: 5px;
+  left: 116px;
+}
+.filename {
+  font-size: 20px;
+}
+.buttondw {
+  float: right;
+}
+.dwbutton {
+  position: absolute;
+  top: 7px;
+  height: 18px;
+}
+.lineborder {
+  width: 287px;
+  margin-left: 169px;
+
+  height: 4px;
+  border-bottom: 3px solid lightgray;
+}
+.UG {
+  top: 60px;
+  left: -316px;
+}
+.software {
+  top: 69px;
+}
+.downloadDl {
+  margin-top: 57px;
+}
+.contactRow {
+  padding: 0 18px;
+}
+.btn2 {
+  position: absolute;
+  top: 158px;
+}
+.Features {
+  padding: 0 18px;
+  float: right;
+  margin-right: -12rem;
+  margin-top: -144rem;
+}
+.specdl {
+  margin-top: -59rem;
+  float: right;
+  width: 0%;
+  margin-right: -24rem;
+}
+.contact {
+  padding: 0 18px;
+}
+.tp_lp {
+  top: 56px;
+}
+@media (min-width: 2500px) and (max-width: 2800px) {
+  .Features {
+    padding: 0 18px;
+    float: right;
+    margin-right: -1rem;
+    margin-top: 8rem;
+    min-width: 99rem;
+    transform: scale(1.2) !important;
+  }
+  .specdl {
+    margin-top: 117rem;
+    float: right;
+    width: 0%;
+    margin-right: -12rem;
+    transform: scale(1.2) !important;
+  }
+  .containertable {
+    min-width: 87rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: scale(1.5);
+  }
+  .imgcol1_p {
+    min-width: 100vw;
+    height: 129vh;
+    position: relative;
+    background: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1618310674/Group_22_zvkws6.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .dlimg2_product {
+    float: left;
+    position: absolute;
+    margin-top: 363rem;
+  }
+  .imgcol2_p {
+    min-width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1618310668/Group_23_t167jt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .contact_pr_dl {
+    margin-top: 485rem;
+    margin-left: 3rem;
+  }
+  .contact_footer_dlp > .Footer > .footergrid > .menu_foot > .menus_quicklink2 {
+    top: -12rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    left: 4rem;
+  }
+  .contact_footer_dlp {
+    height: 37vh;
+    margin-top: 13rem;
+  }
+
+  .aslider {
+    top: 3rem;
+  }
+  .spectable {
+    transform: scale(1.2);
+    margin-top: 10rem;
+    margin-left: 0rem;
+  }
+  .dlimg1_product {
+    float: left;
+    position: absolute;
+    margin-top: 206rem;
+  }
+  .qote_btn {
+    margin-top: 185rem !important;
+    margin-left: 40rem !important;
+    position: absolute !important;
+    transform: scale(2) !important;
+  }
+  .fslider {
+    top: 13rem;
+    transform: scale(1.5);
+  }
+  .conatctRow {
+    transform: scale(1.5);
+    margin-left: 32rem;
+    margin-top: 9rem;
+  }
+  .img_fix {
+    width: 453px;
+    transform: scale(1.5);
+  }
+}
+.app_headdl {
+  margin-left: -21rem;
+}
+
+@media (min-width: 1400px) and (max-width: 1800px) and (min-height: 669px) {
+  .containertable_f {
+    min-width: 67rem;
+    margin: 0 auto;
+    margin-left: -8rem;
+    padding: 0 2rem 2rem;
+    height: 210vh;
+    overflow-y: hidden;
+    transform: scale(0.8);
+    overflow-x: hidden;
+    margin-top: -10rem;
+    font-weight: 700;
+  }
+
+  .containertable {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 61vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 9rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .howtimg {
+    height: 36vh;
+    text-align: end;
+    top: 189px;
+    left: 144px;
+    position: sticky;
+    float: right;
+    margin-right: -29px;
+    right: 0;
+    padding: 0;
+    margin-top: 125px;
+    transform: scale(0.6);
+  }
+  .texthwto {
+    width: 0;
+    font-size: 4rem;
+    margin-top: -25rem;
+    margin-left: 12px;
+    transform: scale(0.7);
+  }
+  .containertable {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: scale(0.67);
+  }
+  .spectable {
+    transform: scale(0.8);
+  }
+  .containertable_f {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 101vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transform: scale(0.7);
+  }
+  .fslider {
+    top: -5rem;
+  }
+  .contact_pr_dl {
+    margin-top: 239rem;
+    margin-left: 168rem;
+  }
+  table {
+    width: 77%;
+    border-collapse: collapse;
+    background: black;
+  }
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink {
+    top: -36px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    left: 269px;
+  }
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink3 {
+    top: 326rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: absolute;
+    left: 400px;
+  }
+
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink2 {
+    top: 70px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    left: -240px;
+  }
+  .contact_footer_dlp > .footergrid > .Address_row {
+    margin-top: -110px;
+    font-family: Helvetica;
+    display: flex;
+    flex-flow: wrap-reverse;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .texthwto {
+    width: 0;
+    font-size: 4rem;
+    margin-top: -25rem;
+    margin-left: 12px;
+    transform: scale(0.4);
+  }
+  .show_more_specbtn {
+    margin-left: 24rem;
+  }
+  div.text-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .btnhw {
+    left: -28px;
+    top: 36px;
+  }
+
+  .containertable {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: scale(0.57);
+  }
+  .containertable_f {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 4rem 1rem;
+    height: 101vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transform: scale(0.59);
+  }
+  .fslider {
+    top: -9rem;
+  }
+  .contact_pr_dl {
+    margin-top: -30rem;
+    margin-left: -10rem;
+    transform: scale(0.7);
+  }
+  table {
+    width: 91%;
+    border-collapse: collapse;
+    background: black;
+  }
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink {
+    top: -20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    left: 2rem;
+  }
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink3 {
+    top: 316rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    position: absolute;
+    left: 28rem;
+    min-width: 21rem;
+  }
+  .contact_footer_dlp > .footergrid > .menu_foot > .menus_quicklink2 {
+    top: 12rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    left: 0rem;
+    min-width: 51rem;
+  }
+  .contact_footer_dlp > .footergrid > .Address_row > .adress_text {
+    top: -29px;
+    min-width: 17rem;
+  }
+  .contact_footer_dlp > .footergrid {
+    margin-top: 32px;
+    height: 24rem;
+  }
+  .contact_footer_dlp > .footergrid > .logo_footer {
+    margin-left: 154px;
+    transform: scale(1.5);
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgdlsm {
+    text-align: center;
+    top: 60px;
+    transform: scale(0.6);
+    margin-left: -9rem;
+  }
+  .howtimg,
+  .btnhw {
+    display: none;
+  }
+  .rowhow {
+    height: 53vh;
+    position: absolute;
+    margin-top: 49rem;
+    width: 100vw;
+  }
+  .video_howto_dl {
+    height: 100vh !important;
+    width: 100vw !important;
+  }
+  .Features {
+    padding: 0 18px;
+    float: right;
+    margin-right: -14rem;
+    margin-top: 32rem;
+    width: 57rem;
+  }
+
+  .containertable {
+    min-width: 81rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: scale(0.5);
+  }
+  .aslider {
+    top: -5rem;
+    left: -15rem;
+  }
+  .fslider {
+    top: -9rem;
+    left: 3rem;
+  }
+  .containertable_f {
+    min-width: 69rem;
+    margin: 0 auto;
+    padding: 0 4rem 1rem;
+    height: 101vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transform: scale(0.59);
+    margin-top: -4rem;
+  }
+  .qote_btn {
+    margin-top: 144rem !important;
+    margin-left: 16rem !important;
+    position: absolute;
+    transform: scale(1) !important;
+  }
+  .contact_pr_dl {
+    margin-top: 179rem;
+    margin-left: -2rem;
+    transform: scale(0.65) !important;
+  }
+  .conatctRow {
+    min-width: 50rem;
+  }
+  .specdl {
+    margin-top: 85rem;
+    float: right;
+    width: 0%;
+    transform: scale(0.9);
+    margin-right: -24rem;
+  }
+  .contact_footer_dlp > .Footer > .footergrid > .logo_footer {
+    margin-left: 18px;
+    margin-top: 3rem;
+  }
+  .spectable {
+    transform: scale(0.8);
+    margin-left: -19rem;
+  }
+  .show-more_spec {
+    padding: 12px 3px;
+    margin-left: -11rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .containertable_f {
+    min-width: 62rem;
+    margin: 0 auto;
+    padding: 0 4rem 1rem;
+    height: 107vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transform: scale(0.59);
+  }
+  .containertable {
+    min-width: 87rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    height: 51vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: scale(0.4);
+  }
+  .aslider {
+    top: -6rem;
+    left: 4rem;
+  }
+  .contact_footer_dlp > .Footer > .footergrid > .Address_row {
+    margin-top: -40%;
+    margin-left: 0rem;
+    font-family: Helvetica;
+    display: flex;
+    flex-flow: wrap-reverse;
+    flex-direction: column;
+    transform: scale(0.6);
+  }
+  .show-more_spec {
+    padding: 12px 3px;
+    margin-left: -17rem;
+    text-align: center;
+  }
+}
+.spectable {
+  margin-top: 5rem;
+}
+
+.applicationrow {
+  height: 75vh;
+  margin: 0 18px;
+  float: right;
+  width: 29%;
+  margin-top: 148rem;
+}
+.spec_headdl {
+  margin-left: -20rem;
+}
+.qote_btn {
+  margin-top: 144rem;
+  margin-left: 27rem;
+  position: absolute;
+  transform: scale(1.5);
+}
+
+.containertable {
+  min-width: 64rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 9rem;
+}

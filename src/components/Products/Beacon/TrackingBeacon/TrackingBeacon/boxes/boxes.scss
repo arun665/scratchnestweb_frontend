@@ -1,0 +1,227 @@
+
+@media screen and (min-width:996px){
+    
+
+#boxes_oneport{
+    height:100vh;
+
+background-image: url('./bg3.png');
+background-size: cover;
+background-repeat:repeat;
+    .heading{
+        width:100vw;
+        margin-top:10vh;
+         text-align:center;
+         font-weight:600;
+
+        h1{
+            font-weight:600;
+         
+            font-size:2.5em;
+            span{
+                color:#1EDAF2
+                ;
+            }
+        }
+
+        h2{font-weight:600;
+         
+            font-size:1.5em;
+        }
+
+    }
+
+    .row1{
+        width:70%;
+        margin-left:15%;
+        margin-top:5vh;
+        #box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:30vh;
+            width:85%;
+            margin:7%;
+            background-image: linear-gradient(to bottom right, #180D5B , #1DDAF2);
+  
+            border-radius:40px;
+img{
+    max-width:100%;
+    width:50px;
+}
+            h1{
+ color:white;
+ margin-top:20%;
+ text-align:center;
+ font-size:1.3em;
+            }
+
+            #comm{
+                margin-top:5%;;
+            }
+        }
+
+        #box:hover{
+box-shadow: 10px 10px 10px grey;
+        }
+
+    }
+}
+}
+
+
+
+@media screen and (max-width:996px) and (min-width:576px){
+
+
+        
+
+#boxes_oneport{
+    margin-bottom:10vh;
+    background-image: url('./bg3.png');
+    background-size: cover;
+    background-repeat:repeat;
+        .heading{
+            width:100vw;
+            margin-top:10vh;
+             text-align:center;
+             font-weight:600;
+    
+            h1{
+                font-weight:600;
+             
+                font-size:2em;
+                span{
+                    color:#1EDAF2
+                    ;
+                }
+            }
+    
+            h2{font-weight:600;
+             
+                font-size:1.3em;
+            }
+    
+        }
+    
+        .row1{
+            width:90%;
+            margin-left:5%;
+            margin-top:5vh;
+            #box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height:30vh;
+                width:94%;
+                margin:3%;
+                background-image: linear-gradient(to bottom right, #180D5B , #1DDAF2);
+      
+                border-radius:40px;
+    #img{
+        width:50px;
+
+        
+    }
+                h1{
+     color:white;
+     margin-top:20%;
+     text-align:center;
+     font-size:1em;
+                }
+    
+                #comm{
+                    margin-top:5%;;
+                }
+            }
+    
+            #box:hover{
+    box-shadow: 10px 10px 10px grey;
+            }
+    
+        }
+    }
+
+
+}
+    
+
+
+
+
+@media screen and (max-width:576px) {
+
+
+        
+
+    #boxes_oneport{
+        margin-bottom:10vh;
+
+        background-image: url('./bg3.png');
+        background-size: cover;
+        background-repeat:repeat;
+            .heading{
+                width:100%;
+                margin-top:5vh;
+                 text-align:center;
+                 font-weight:600;
+        
+                h1{
+                    font-weight:600;
+                 
+                    font-size:1.5em;
+                    span{
+                        color:#1EDAF2
+                        ;
+                    }
+                }
+        
+                h2{font-weight:600;
+                 
+                    font-size:1em;
+                }
+        
+            }
+        
+            .row1{
+                width:100vw;
+                
+                margin-top:5vh;
+                #box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height:20vh;
+                    width:100%;
+                    margin-top:10%;
+                    
+                    background-image: linear-gradient(to bottom right, #180D5B , #1DDAF2);
+          
+                    border-radius:25px;
+        #img{
+            width:30px;
+    
+            
+        }
+                    h1{
+         color:white;
+         margin-top:20%;
+         text-align:center;
+         font-size:0.9em;
+                    }
+        
+                    #comm{
+                        margin-top:5%;;
+                    }
+                }
+        
+                #box:hover{
+        box-shadow: 10px 10px 10px grey;
+                }
+        
+            }
+        }
+    
+    
+    }
+        

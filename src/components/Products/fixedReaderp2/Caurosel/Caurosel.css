@@ -1,0 +1,171 @@
+.each-fade {
+  display: block;
+  justify-content: center;
+}
+.slide-container {
+  width: 45vw;
+  height: 51vh;
+  top: 4rem;
+  left: -0.5rem;
+  background-color: white;
+  position: relative;
+}
+.each-fade > div img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.react-slideshow-container .default-nav:first-of-type {
+  margin-top: 32rem;
+  position: absolute;
+  margin-left: 22rem;
+}
+.react-slideshow-container .default-nav:last-of-type {
+  position: absolute;
+  margin-left: 31rem !important;
+  margin-top: 32rem;
+}
+.home_row1 {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-left: 175px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+svg {
+  width: 100px;
+  margin: 0 !important;
+  text-rendering: auto;
+  background: 100%;
+}
+.each_row {
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 2500px) and (max-width: 2700px) {
+  .react-slideshow-container .default-nav:last-of-type {
+    position: absolute;
+    margin-left: 64rem !important;
+    margin-top: 55rem;
+    transform: scale(1.5);
+  }
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-top: 55rem;
+    position: absolute;
+    margin-left: 52rem;
+    transform: scale(1.5);
+  }
+  .irpgrid_2 {
+    margin-top: 6rem;
+    width: 247rem;
+    background: white;
+  }
+}
+@media (min-width: 424px) and (max-width: 699px) {
+  .each-fade > div img {
+    position: relative;
+    height: 28rem;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .slide-container {
+    width: 100vw;
+    height: 51vh;
+    top: 4rem;
+    left: -1rem;
+    background-color: white;
+    position: relative;
+  }
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-top: 32rem;
+    position: absolute;
+    margin-left: 18rem;
+  }
+  .react-slideshow-container .default-nav:last-of-type {
+    position: absolute;
+    margin-left: 24rem !important;
+    margin-top: 32rem;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 424px) {
+  .each-fade > div img {
+    position: relative;
+    height: 28rem;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .slide-container {
+    width: 100vw;
+    height: 51vh;
+    top: 4rem;
+    left: -1rem;
+    background-color: white;
+    position: relative;
+  }
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-top: 32rem;
+    position: absolute;
+    margin-left: 14rem;
+  }
+  .react-slideshow-container .default-nav:last-of-type {
+    position: absolute;
+    margin-left: 20rem !important;
+    margin-top: 32rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .each-fade > div img {
+    position: relative;
+    height: 28rem;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .slide-container {
+    width: 100vw;
+    height: 51vh;
+    top: 4rem;
+    left: -1rem;
+    background-color: white;
+    position: relative;
+  }
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-top: 32rem;
+    position: absolute;
+    margin-left: 11rem;
+  }
+  .react-slideshow-container .default-nav:last-of-type {
+    position: absolute;
+    margin-left: 17rem !important;
+    margin-top: 32rem;
+  }
+}
+@media (min-width: 1800px) and (max-width: 2200px) and (min-height: 800px) and (max-height: 1100px) {
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-top: 41rem;
+    position: absolute;
+    margin-left: 33rem;
+    transform: scale(1.5);
+  }
+  .react-slideshow-container .default-nav:last-of-type {
+    position: absolute;
+    margin-left: 45rem !important;
+    margin-top: 41rem;
+    transform: scale(1.5);
+  }
+}

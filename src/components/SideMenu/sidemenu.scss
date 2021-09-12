@@ -1,0 +1,145 @@
+/* .sidemenu {
+  background: black;
+  width: 10vw;
+  height: 10vh;
+  z-index: 9999999;
+} */
+
+
+.sidemenu{
+.Prof_Dropdown {
+  background: #ffffff !important;
+  box-shadow: 0px 4px 10px grey;
+  border-radius: 8px;
+  z-index: 999;
+  width: 248px;
+  position: fixed;
+  right: 35px;
+  top: 61px;
+  padding: 24px;
+}
+.dropdownButton {
+  position: relative;
+  /* padding: 10px; */
+}
+.Prof_Dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.Prof_Dropdown ul li {
+  margin: 20px 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.Prof_Dropdown ul li:first-child {
+  margin-top: 0;
+}
+
+.Prof_Dropdown ul li:last-child {
+  margin-bottom: 0;
+}
+.liText {
+  width: 127px;
+  height: 17px;
+  left: 24px;
+  top: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.loginli {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.signupli {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5px;
+  line-height: 17px;
+}
+.hr {
+  border: 1px solid #e6e6e6;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* margin: 0px 20px; */
+}
+.pr {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  color:black;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.he {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color:black;
+  left:3px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.popupModal {
+  overflow: hidden;
+}
+
+
+
+.listitem{
+  color:black;
+  font-size: 1em;;
+}
+
+@media (min-width: 2500px) {
+  .Prof_Dropdown {
+    transform: scale(1.8);
+    top: 21rem;
+    right: 12rem;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2200px) and (min-height: 800px) and (max-height: 1100px) {
+  .Prof_Dropdown {
+    transform: scale(1.8);
+    top: 22rem;
+    right: 15rem;
+    width: 27rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .Prof_Dropdown {
+    transform: scale(0.8);
+    top: 25px;
+    right: -15px;
+  }
+}
+}

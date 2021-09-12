@@ -1,0 +1,363 @@
+@media (min-width: 998px) {
+
+
+
+    #rfid{
+        min-height:110vh;
+        font-family: 'Noto Sans JP', sans-serif;
+        background-color: black;;
+      //  background-image: url('./temp.png');
+      background-image: linear-gradient(to bottom , black 90%, grey );;
+        background-repeat: no-repeat;
+       background-size: cover;
+padding-bottom: 10%;;
+     .beacon_img{
+            width:100%;
+        }
+        #img2{
+            display: none;
+        }
+
+        .b2{
+            display: none;;
+        }
+   
+        .modal-webkit-scrollbar {
+            width: 0.2em;
+            color:grey;
+            
+            background-color: grey;
+          }
+          
+          
+    
+        .beacon_img{
+            width: 100%;
+            margin-top:20%;
+            background: red;
+            position: relative;
+            
+            animation-direction: alternate;
+        
+          }
+          
+          @keyframes myfirst {
+            0%   { top: 0px;}
+          
+            50%  {top: 10px;}
+          
+            100% {top: 0px;}
+          }
+    
+        .div{
+            margin-left:10%;
+            overflow-x: visible;
+            margin-top:30%;
+            text-align:left;
+            color:white;
+       h1{
+         font-size:10em; 
+        span{
+         
+            font-weight: bolder;;
+            color:#1DDAF2;
+        }  
+           font-size: 5em;
+        }
+      
+       p{
+           text-align:justify;
+           font-size: 1.5em;;
+           float:left;
+       }
+       button{
+           width:30%;
+           color:white;
+           border-color: white;;
+           font-size: 1.2em;;
+       font-weight: bold;;
+       border-radius: 25px;
+
+    
+        }
+        button:hover{
+            border-color: black;;
+            color:black;
+            background-color: white;
+        }
+#btn1{
+    background-color: white;
+    padding-top:2%;
+    padding-bottom:2%;
+    box-shadow: 0 4px 4px 0 rgb(196, 195, 195);
+    font-family: 'Noto Sans JP', sans-serif;
+    color:black;
+}
+#btn2{
+    background-color: black;
+    color:white;
+    padding-top:2%;
+    padding-bottom:2%;
+    
+    border:2px solid white;
+    margin-left:3%;
+}
+
+
+    }
+    }
+    }
+    
+    
+    
+    
+    @media (min-width: 576px) and (max-width: 998px) {
+    
+        #rfid{
+            min-height:100vh;
+            margin-top:1%;
+    padding-bottom:10%;
+            background-color: black;;
+            background-image: linear-gradient(to bottom , black 80%, grey );;
+            background-repeat: no-repeat;
+           background-size: cover;
+    
+            .b2{
+                display: none;;
+            }
+         .beacon_img{
+                width:100%;
+            }
+    #img2{
+            display: none;
+        }
+        
+            .beacon_img{
+                width: 100%;
+                margin-top: 30%;;
+                background: red;
+                position: relative;
+                
+                animation-direction: alternate;
+              }
+              
+              @keyframes myfirst {
+                0%   { top: 0px;}
+              
+                50%  {top: 30px;}
+              
+                100% {top: 0px;}
+              }
+        
+            .div{
+                margin-left:10%;
+                overflow-x: visible;
+                margin-top:30%;
+                text-align:left;
+                color:white;
+                h1{
+                    font-size:4em; 
+                   span{
+                    
+                       font-weight: bold;;
+                       color:#1DDAF2;
+                   }  
+                      font-size: 2em;
+                   }
+           p{
+               font-size: 1.2em;;
+               float:left;
+           }
+           button{
+               width:40%;
+               color:white;
+               border-color: white;;
+               margin-top:5%;
+               font-size: 1em;;
+           
+           border-radius: 10px;
+            }
+            button:hover{
+                border-color: black;;
+                color:black;
+                background-color: white;
+            }
+            #btn1{
+                background-color: white;
+                padding-top:2%;
+                padding-bottom:2%;
+                box-shadow: 0 4px 4px 0 rgb(196, 195, 195);
+                font-family: 'Noto Sans JP', sans-serif;
+                color:black;
+            }
+            #btn2{
+                background-color: black;
+                color:white;
+                padding-top:2%;
+                padding-bottom:2%;
+                
+                border:2px solid white;
+                margin-left:5%;
+            }
+            
+    
+        }
+        }
+        
+    
+    
+    
+    
+    }
+    
+    
+    
+    @media (max-width: 576px) {
+    
+        #rfid{
+            min-height:100vh;
+            font-family: 'Noto Sans JP', sans-serif;
+            background-image: linear-gradient(to bottom , black 80%, grey );;
+            background-repeat: no-repeat;
+           background-size: cover;
+    padding-bottom:10% ;
+            
+         .beacon_img{
+            
+                width:100%;
+            }
+            #img1{
+                display: none;
+            }
+            #img2{
+                display: block;
+            }
+            
+            .beacon_img{
+                width: 100%;
+            margin-top:5%;    
+                background: red;
+                position: relative;
+                animation-direction: alternate;
+                
+              }
+              
+              @keyframes myfirst {
+                0%   { top: 0px;}
+              
+                50%  {top: 20px;}
+              
+                100% {top: 0px;}
+              }
+        
+            .div{
+            width:100%;
+                overflow-x: visible;
+                margin-top:10vh;
+                text-align:center;
+                color:white;
+           h1{
+               font-size: 2.5em;
+               font-weight: bold;;
+               span{
+                    
+                font-weight:bolder;;
+                color:#1DDAF2;
+            } 
+           }
+           p{
+               font-size: 0.9em;;
+               text-align: center;
+
+           }
+
+           #btn1{
+            background-color: white;
+            padding-top:2%;
+            padding-bottom:2%;
+            box-shadow: 0 4px 4px 0 rgb(196, 195, 195);
+            font-family: 'Noto Sans JP', sans-serif;
+            color:black;
+        }
+        .b1{
+            display: none;;
+        }
+        #btn2{
+            background-color: black;
+            color:white;
+            padding-top:2%;
+            padding-bottom:2%;
+            
+            border:2px solid white;
+            margin-left:1%;
+        }
+           button{
+               width:40%;
+               color:white;
+               border-color: white;;
+               margin-top:1%;
+               font-size: 1em;;
+           font-weight: bold;;
+           border-radius: 25px;
+            }
+            button:hover{
+                border-color: black;;
+                color:black;
+                background-color: white;
+            }
+    
+    
+        }
+
+        
+        #btn1{
+            background-color: white;
+            padding-top:2%;
+            padding-bottom:2%;
+            box-shadow: 0 4px 4px 0 rgb(196, 195, 195);
+            font-family: 'Noto Sans JP', sans-serif;
+            color:black;
+        }
+        .b1{
+            display: none;;
+        }
+        .b2{
+            width:100%;
+            margin-top: 20%;;
+        
+        #btn2{
+            background-color: black;
+            color:white;
+            padding-top:2%;
+            padding-bottom:2%;
+            
+            border:2px solid white;
+            margin-left:3%;
+        }
+           button{
+               width:45%;
+               color:white;
+               border-color: white;;
+               margin-top:1%;
+               font-size: 0.8em;;
+           font-weight: bold;;
+           border-radius: 25px;
+           padding-left:10px;
+           padding-right:10px;
+           padding-top:10px;
+        padding-bottom:10px;
+            }
+            button:hover{
+                border-color: black;;
+                color:black;
+                background-color: white;
+            }
+
+        }
+    
+    
+        }
+    
+    
+    
+    }

@@ -1,0 +1,36 @@
+@media screen and (min-width:576px){
+
+
+.splashscreen{
+
+  .desktop{
+    height:100vh;
+    width:100%;
+  }
+
+  .phone{
+display:none;
+  }
+
+
+}
+
+}
+@media screen and (max-width:576px){
+
+  .splashscreen{
+
+  .phone{
+    height:100vh;
+    width:100%;
+  }
+
+  .desktop{
+display:none;
+  }
+
+
+}
+
+
+}

@@ -1,0 +1,303 @@
+.beacon_img {
+  position: relative;
+  margin-right: 295px;
+}
+.ts_16_b {
+  margin-top: 125px;
+
+  position: relative;
+  top: -711px;
+  bottom: 0;
+  left: -2%;
+  z-index: 999;
+}
+.btn_e_b {
+  margin-left: -152px;
+  margin-top: 21px;
+}
+.ion-row_b {
+  background: white;
+  margin-top: 449px;
+  margin-left: -349px;
+}
+.beacon {
+  position: absolute;
+}
+.beacon_text {
+  color: black;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: right;
+}
+.beacon_text2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: -96px;
+  margin-left: -84px;
+  text-align: right;
+}
+.beacon_col {
+  margin-top: -789px;
+
+  padding-left: 821px;
+}
+
+.nav3 {
+  position: absolute;
+  padding-top: 794px;
+  padding-left: -43px;
+  margin-left: -130px;
+  width: 100%;
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .beacon_img {
+    position: relative;
+
+    transform: scale(0.8);
+  }
+  .nav3 {
+    margin-left: -57px !important;
+  }
+  .beacon_col {
+    padding-left: 912px !important;
+    margin-top: -846px !important;
+    transform: scale(0.8);
+  }
+
+  .lef2 {
+    margin-top: 133px;
+    position: relative;
+    top: -714px;
+    bottom: 0;
+    left: -3.5%;
+    z-index: 999;
+    transform: scale(0.8);
+  }
+  .btn_e_b {
+    margin-left: -136px;
+    margin-top: 7px;
+    transform: scale(0.7);
+  }
+}
+
+@media (min-width: 425px) and (max-width: 700px) {
+  .beacon_img {
+    display: none;
+  }
+  .beacon_col {
+    margin-top: -13rem;
+    padding-left: 180px;
+    transform: scale(0.5);
+  }
+  .ion-row_b {
+    background-image: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1614101775/W4_o3hmkt.jpg);
+    background-size: 67% 73%;
+    height: 75vh;
+    margin-top: 309px;
+    margin-left: 0 !important;
+    transform: scale(1.7);
+  }
+  .beacon_col {
+    margin-top: -123px;
+    padding-left: 180px;
+    transform: scale(0.5);
+  }
+  .lef2 {
+    margin-top: 147px;
+    position: relative;
+    top: 308px;
+    bottom: 0;
+    left: 45%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+  .beacon_text2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: -594px;
+    margin-left: -450px;
+    text-align: right;
+    transform: scale(0.5);
+  }
+  .btn_e_b {
+    margin-left: -152px;
+    margin-top: -530px;
+    transform: scale(0.5);
+  }
+}
+
+@media (min-width: 400px) and (max-width: 424px) {
+  .beacon_img {
+    display: none;
+  }
+  .ion-row_b {
+    background-image: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1617139189/beacon_home_page_tablet_iscii6.jpg);
+    background-size: 112% 117%;
+    height: 75vh;
+    margin-top: -54px;
+    margin-left: -322px;
+  }
+  .beacon_col {
+    margin-top: -3px;
+    padding-left: 410px;
+    transform: scale(0.8);
+  }
+  .lef2 {
+    margin-top: 295px;
+    position: relative;
+    top: 129px;
+    bottom: 0;
+    left: 11%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+
+@media (min-width: 400px) and (min-height: 700px) and (max-width: 500px) and (max-height: 850px) {
+  .lef2 {
+    margin-top: 47rem;
+    position: relative;
+    top: 22rem;
+    bottom: 0;
+    left: 30rem;
+    z-index: 999;
+    transform: scale(0.9);
+  }
+}
+@media (min-width: 400px) and (min-height: 700px) and (max-width: 500px) and (max-height: 750px) {
+  .lef2 {
+    margin-top: 500px;
+    position: relative;
+    top: 80px;
+    bottom: 0;
+    left: 11%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+
+@media (min-width: 400px) and (min-height: 800px) and (max-width: 500px) and (max-height: 900px) {
+  .lef2 {
+    margin-top: 500px;
+    position: relative;
+    top: 20%;
+    bottom: 0;
+    left: 11%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+
+@media (min-width: 400px) and (min-height: 900px) and (max-width: 500px) and (max-height: 1050px) {
+  .lef2 {
+    margin-top: 500px;
+    position: relative;
+    top: 24%;
+    bottom: 0;
+
+    z-index: 999;
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 400px) and (min-height: 950px) and (max-width: 500px) and (max-height: 1050px) {
+  .lef2 {
+    margin-top: 500px;
+    position: relative;
+    top: 30%;
+    bottom: 0;
+    z-index: 999;
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 355px) and (max-width: 399px) {
+  .beacon_img {
+    display: none;
+  }
+  .ion-row_b {
+    background-image: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1617139189/beacon_home_page_tablet_iscii6.jpg);
+    background-size: 105% 117%;
+    height: 75vh;
+    margin-top: -54px;
+    margin-left: -322px;
+  }
+  .beacon_col {
+    margin-top: -3px;
+    padding-left: 410px;
+    transform: scale(0.8);
+  }
+  .lef2 {
+    margin-top: 147px;
+    position: relative;
+    top: 313px;
+    bottom: 0;
+    left: 9%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+
+@media (min-width: 355px) and (max-width: 399px) and (min-height: 800px) and (max-height: 950px) {
+  .lef2 {
+    margin-top: 147px;
+    position: relative;
+    margin-top: 250px;
+    bottom: 0;
+    left: 9%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+@media (min-width: 320px) and (max-width: 354px) {
+  .beacon_img {
+    display: none;
+  }
+  .ion-row_b {
+    background-image: url(https://res.cloudinary.com/dpysmqax5/image/upload/v1617139189/beacon_home_page_tablet_iscii6.jpg);
+    background-size: 100% 116%;
+    height: 75vh;
+    margin-top: -54px;
+    margin-left: -322px;
+  }
+  .beacon_col {
+    margin-top: -3px;
+    padding-left: 410px;
+    transform: scale(0.7);
+  }
+  .lef2 {
+    margin-top: 110px;
+    position: relative;
+    top: 345px;
+    bottom: 0;
+    left: 5%;
+    z-index: 999;
+    transform: scale(0.7);
+  }
+}
+@media (min-width: 2500px) {
+  .btn_explore_col {
+    margin-left: -7rem;
+  }
+}
+@media (min-width: 1800px) and (max-width: 2200px) and (min-height: 800px) and (max-height: 1100px) {
+  .btn_e_b {
+    margin-left: -16rem;
+    margin-top: 11px;
+    transform: scale(1.1);
+  }
+  .beacon_col {
+    margin-top: -68rem;
+    padding-left: 63rem;
+    transform: scale(1.5);
+  }
+  .ts_16_b {
+    margin-top: 125px;
+    position: relative;
+    top: -711px;
+    bottom: 0;
+    left: -3%;
+    z-index: 999;
+    transform: scale(1.3);
+  }
+}

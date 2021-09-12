@@ -1,0 +1,236 @@
+
+.topheader {
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
+
+@media screen and (min-width:996px){
+ 
+.topheader{
+  
+.navbar{
+  background-color: #262727;
+}
+a{
+  font-size:1.1em;
+  color:white;
+  float:left;
+}
+.dropdown-item{
+  font-size:1em;
+}
+.logofooter{
+  width:200px;
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-left:10%;
+}
+
+#brand{
+  font-family: 'Noto Sans', sans-serif;
+margin-left:1%;
+margin-right:1%;
+color:white;
+}
+ul{
+  list-style-type:none;
+}
+#branddiv{
+  margin-left:10%;;
+ width:40%;
+ margin-top: auto;
+ margin-bottom: auto;
+ li{
+   margin-left:0px;
+   margin-right:0px;
+   float:left;
+ }
+}
+table{
+  width:100%;
+}
+#btn{
+float:right;
+
+margin-right:1%;
+margin-left:10%;
+font-size:1.1em;
+align-items: right;
+background-color: #1DDAF2;
+border-radius:20px;
+padding:10px;
+padding-left:30px;
+padding-right:30px;
+color:black;
+font-family: 'Noto Sans', sans-serif;
+margin-top: auto;
+margin-bottom: auto;
+
+
+}
+#tempnav{
+  display: none;
+}
+
+
+
+}
+
+}
+
+@media screen and (min-width:576px) and (max-width:996px){
+  .topheader
+{  #branddiv{
+    margin-left:20%;;
+    width:auto;
+  }
+
+
+  .navbar{
+    background-color: #262727;
+  }
+  a{
+    font-size:1.1em;
+   color:white;
+    float:right;
+  }
+  .logofooter{
+    width:150px;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+  }
+  
+  #brand{
+    font-family: 'Noto Sans', sans-serif;
+  margin-left:0%;
+  margin-right:0%;
+  color:white;
+  }
+  #branddiv{
+    margin-left:15%;;
+  }
+  #btn{
+  float:right;
+  
+  float:right;
+  margin-left:5%;
+  font-size:1.1em;
+  
+  align-items: right;
+  background-color: #1DDAF2;
+  border-radius:20px;
+  padding:5px;
+  padding-left:15px;
+  padding-right:15px;
+  color:black;
+  font-family: 'Noto Sans', sans-serif;
+  display:none;
+  }
+
+  ul{
+    list-style-type:none;
+  }
+  #branddiv{
+    display: none;;
+    margin-left:4%;;
+   width:50%;
+   margin-top: auto;
+   margin-bottom: auto;
+   color:white;
+   font-size:0.8em;
+   li{
+     margin-left:0px;
+     margin-right:0px;
+     color:white;
+
+     float:left;
+   }
+  }
+  table{
+    width:100%;
+  }
+  #tempnav{
+    display: none;
+  }
+  
+  
+}
+}
+
+@media screen and (max-width:576px){
+  .topheader
+{  
+  #branddiv{
+    margin-left:20%;;
+    width:auto;
+  }
+
+.phone{
+  float:left;
+}
+  .navbar{
+    background-color: #262727;
+  }
+  ul{
+    float: left;;
+    text-align: left;;
+  }
+  a{
+    font-size:1em;
+    color:white;
+    float:left;
+  }
+  .logofooter{
+    width:150px;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left:10%;
+  }
+  #branddiv{
+    display: none;
+  }
+  #brand{
+    font-family: 'Noto Sans', sans-serif;
+  margin-left:2%;
+  margin-right:2%;
+  color:white;
+  }
+  #branddiv{
+    margin-left:25%;;
+  }
+  #btn{
+  float:right;
+  right:50px;;
+  margin-right:2%;
+  font-size:1em;
+  align-items: right;
+  background-color: #1DDAF2;
+  border-radius:20px;
+  padding:5px;
+  padding-left:30px;
+  padding-right:30px;
+  color:black;
+  font-family: 'Noto Sans', sans-serif;
+  display: none;
+  }
+  
+  #tempnav{
+    display: block;
+    text-align: left;
+   
+    a{
+      text-align:left;
+      float: left;;
+    }
+    
+    ul{
+      text-align: left;
+   
+    }
+  }
+}
+}

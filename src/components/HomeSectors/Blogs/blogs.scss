@@ -1,0 +1,47 @@
+
+
+@media screen and (min-width:996px) {
+    
+
+#blogs{
+min-height:120vh;
+background-image: url('./bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding-top:20vh;
+}
+
+}
+
+
+
+@media screen and(min-width:576px) and  (max-width:996px) {
+    
+
+    #blogs{
+    min-height:120vh;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20vh;
+    }
+    
+    }
+    
+    
+    
+@media screen and(max-width:576px) {
+    
+
+    #blogs{
+    min-height:100vh;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20vh;
+    }
+    
+    }
+    
+    
+  

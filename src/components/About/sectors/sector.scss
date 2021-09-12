@@ -1,0 +1,163 @@
+@media  screen and (min-width:996px) {
+    
+
+#sector{
+ padding-bottom:10vh;
+    background-image:url('./bg2.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top:-10vh;
+    min-height:100vh;
+    padding-top:30vh;
+.row{
+    width:80%;
+    margin-left:10%;
+
+}
+#heading{
+    text-align:left;
+margin-left:5%;
+    h1{
+        font-size:3em;
+color:#180D5B;
+
+        font-weight:bold;
+     
+    }
+    margin-bottom:10vh;
+}
+
+#box{
+    min-height:60%;
+    img{
+        width:90%;
+        margin-bottom:5%;height:50vh;border-radius:25px;
+        transition:1s;
+        background-color: black;;
+    }
+
+    h2{
+        font-weight:bold;color:#180D5B;
+font-size: 2em;;
+    }
+    p{      width:90%; margin-left:5%;
+        font-size:1em;text-align: justify;
+    }
+
+}
+
+
+
+
+}
+}
+
+
+@media  screen and  (min-width:576px) and (max-width:996px) {
+    
+
+    #sector{
+     padding-bottom:10vh;
+        background-image:url('./bg2.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-top:-10vh;
+        padding-top:30vh;
+    
+    #heading{
+        text-align:left;
+    
+        h1{
+            font-size:3em;
+    color:#180D5B;
+    text-align: center;
+            font-weight:bold;
+         
+        }
+        margin-bottom:10vh;
+    }
+    
+    #box{ min-height:60%;;
+        img{
+            width:100%;
+            margin-bottom:5%;border-radius:25px; height:50vh;
+            transition:1s;
+        }
+ 
+        h2{
+            font-weight:900;color:#180D5B;
+    font-size: 1.5em;;
+        }
+        p{text-align: justify;
+            font-size:0.9em;
+        }
+    
+    }
+    
+    
+    
+    
+    }
+    }
+    
+    
+    
+
+
+
+@media  screen and (max-width:576px) {
+    
+
+    #sector{
+     padding-bottom:10vh;
+        background-image:url('./bg2.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-top:-10vh;
+        padding-top:30vh;
+    
+    #heading{
+        text-align:left;
+    
+        h1{
+            font-size:2em;
+    color:#180D5B;
+    
+            font-weight:bold;
+    text-align: center;     
+        }
+        margin-bottom:5vh;
+    }
+    
+    #box{
+        text-align:left;
+       margin-top:5vh;
+       width:80%;
+         margin-left:10%; 
+       img{
+         width:100%;border-radius:25px;
+         transition:1s;
+         background-color: black;;
+         
+            margin-bottom:5%;
+            transition:1s;
+        }
+  
+        h2{
+            font-weight:bold;color:#180D5B;
+    font-size: 1.5em;;
+        }
+        p{text-align: justify;
+            font-size:1em;
+        }
+    
+    }
+    
+    
+    
+    
+    }
+    }
+    
+    
+    

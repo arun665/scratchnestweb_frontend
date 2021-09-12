@@ -1,0 +1,285 @@
+@media  screen and (min-width:996px) {
+    
+
+    #team{
+     padding-bottom:20vh;
+        background-image:url('./bg2.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+ 
+        padding-top:10vh;
+    .row1{
+        width:90%;
+        margin-left:5%;
+    
+    }
+    #phone{
+        display:none;
+    }
+    #heading{
+        text-align:left;
+    margin-left:5%;
+        h1{
+            font-size:3em;
+  
+    background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+            font-weight:bold;
+         
+        }
+        margin-bottom:10vh;
+    }
+
+#boxout{
+    width:100%;
+    border:2px solid red;
+}
+    #demo_about{
+        width:100%;
+
+.row2{
+    width:85%;
+    margin-left:8%;
+}
+
+        .control{
+
+    .icon{
+        height:30px;          
+            float:left;
+        font-size:5em;     
+        color:red;
+    }    
+    }
+
+     
+    #box{
+        width:90%;
+        margin-left:5%;
+        transition:0.5s;
+        img{
+            width:100%;
+            height:30vh;
+            
+        }
+        h2{
+            font-size:1.8em;
+            font-weight:bold;
+margin-top:10%;
+        }
+        p{
+            font-size:1.2em;
+        }
+
+
+    }
+
+    
+
+    
+    
+}
+    
+    }
+    }
+    
+    
+    @media  screen and  (min-width:576px) and (max-width:996px) {
+        
+    
+        #team{
+            padding-bottom:10vh;
+               background-image:url('./bg2.png');
+               background-size:cover;
+               background-repeat: no-repeat;
+        
+               padding-top:10vh;
+           .row{
+               width:100%;
+               
+           
+           }
+           #phone{
+            display:none;
+        }
+           #heading{
+               text-align:left;
+           margin-left:5%;
+               h1{
+                   font-size:2.5em;
+         
+           background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+       
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+                   font-weight:bold;
+                
+               }
+               margin-bottom:10vh;
+           }
+           
+        
+           
+#boxout{
+    width:100%;
+    border:2px solid red;
+}
+    #demo_about{
+        width:100%;
+
+.row2{
+    width:85%;
+    margin-left:8%;
+}
+
+        .control{
+
+    .icon{
+        height:30px;          
+            float:left;
+        font-size:5em;     
+        color:red;
+    }    
+    }
+
+     
+    #box{
+        width:90%;
+        margin-left:5%;
+        transition:0.5s;
+        img{
+            width:100%;
+            height:30vh;
+            
+        }
+        h2{
+            font-size:1.8em;
+            font-weight:bold;
+margin-top:10%;
+        }
+        p{
+            font-size:1.2em;
+        }
+
+
+    }
+    #box:hover{
+width:95%;
+
+    }
+    
+
+    
+    
+}
+  
+           
+           
+           
+           }
+        }
+        
+        
+        
+    
+    
+    
+    @media  screen and (max-width:576px) {
+        
+    
+   
+    
+            #team{
+                padding-bottom:20vh;
+                   background-image:url('./bg2.png');
+                   background-size:cover;
+                   background-repeat: no-repeat;
+            
+                   padding-top:10vh;
+               .row{
+                   width:100vw;
+                   
+               
+               }
+               #phone{
+                display:block;
+            }
+            #desktop{
+                display:none;
+            }
+               #heading{
+                   text-align:center;
+             
+                   h1{
+                       font-size:2em;
+             
+               background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+           
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+                       font-weight:bold;
+                    
+                   }
+                   margin-bottom:5vh;
+               }
+               
+              
+               #boxout{
+                width:100%;
+                border:2px solid red;
+            }
+                #demo2{
+                    width:100%;
+            
+            .row2{
+                width:85%;
+                margin-left:8%;
+            }
+            
+                    .control{
+            
+                .icon{
+                    height:30px;          
+                        float:left;
+                    font-size:5em;     
+                    color:red;
+                }    
+                }
+            
+                 
+                #box{
+                    width:90%;
+                    margin-left:5%;
+                    transition:0.5s;
+                    img{
+                        width:100%;
+                        height:30vh;
+                    }
+                    h2{
+                        font-size:1.8em;
+                        font-weight:bold;
+            margin-top:10%;
+                    }
+                    p{
+                        font-size:1.2em;
+                    }
+            
+            
+                }
+                #box:hover{
+            width:95%;
+                }
+                
+            
+                
+                
+            }    
+               
+               
+               
+               }
+
+            }
+            

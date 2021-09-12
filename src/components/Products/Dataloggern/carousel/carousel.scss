@@ -1,0 +1,79 @@
+
+
+@media screen and (min-width:996px) {
+    
+#myCarousel{
+    margin-top: 20vh;;
+    padding-top:0%;
+    width:80%; float:right;
+
+ 
+
+  .img2{
+    
+      
+      width:95%;
+      margin-left:2%;
+      margin-right: 2%;
+ border-radius: 25px;;
+ border:2px solid black;
+  }
+
+  span{
+      background-color: grey;
+      color:black;
+      margin:3%;
+  }
+}
+}
+
+
+@media screen and (min-width:576px) and (max-width:996px) {
+    #myCarousel{
+        margin-top: 10vh;;
+        padding-top:0%;
+        width:100%; float:right;
+     
+    
+      .img2{
+        
+          
+          width:95%;
+          margin-left:2%;
+          margin-right: 2%;
+          border-radius: 25px;;
+          border:2px solid black;
+    
+      }
+      span{
+        background-color: grey;
+        color:black;
+    }
+}
+}
+
+
+
+
+@media screen and  (max-width:576px) {
+    #myCarousel{
+        margin-top: 10vh;;
+        padding-top:0%;
+        width:100%; float:right;
+     display: none;
+    
+      .img2{
+        
+          
+          width:95%;
+          margin-left:2%;
+          margin-right: 2%;
+     
+    
+      }
+      span{
+        background-color: grey;
+        color:black;
+    }
+}
+}
