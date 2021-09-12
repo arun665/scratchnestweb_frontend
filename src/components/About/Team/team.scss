@@ -8,6 +8,7 @@
         background-repeat: no-repeat;
  
         padding-top:10vh;
+        min-height:100vh;
     .row1{
         width:90%;
         margin-left:5%;
@@ -196,7 +197,7 @@ width:95%;
                    background-image:url('./bg2.png');
                    background-size:cover;
                    background-repeat: no-repeat;
-            
+            min-height:90vh;
                    padding-top:10vh;
                .row{
                    width:100vw;

@@ -72,7 +72,7 @@ function founder(){
                <img src="https://res.cloudinary.com/dpysmqax5/image/upload/v1616922088/lalit_ynvmj0.png" />
 
                <h2> Lalit </h2>
-               <p>        Dirctor {"&"} CTO</p>
+               <p>        Director {"&"} CTO</p>
                <table>
                    <tr>  
                        <td><a href="#" className="fa fa-facebook"></a></td>

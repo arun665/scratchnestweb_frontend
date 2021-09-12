@@ -5,7 +5,7 @@ import img2 from './img2.png';
 import img3 from './img3.png';
 import img4 from './trial.jpg';
 import img5 from './rfid.jpg';
-import img6 from './b.jpg';
+import img6 from './0.jpg';
 import {Link} from 'react-router-dom';
 import {useState} from 'react';
 function Sector(){

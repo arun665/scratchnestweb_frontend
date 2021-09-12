@@ -48,7 +48,7 @@ function HomeSector() {
    <Beacon/>
    <DataLogger/>
    <Education/>
-            <Blogs/>
+            
             <Footer/>
             
       
