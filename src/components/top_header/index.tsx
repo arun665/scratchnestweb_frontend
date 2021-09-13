@@ -148,12 +148,12 @@ function Topheader(props: any) {
      </Link>     
     </ul>
     
-    <Link to="/cart"> 
+    <Link to="/cart" > 
 
     <button className="btn btn-outline-primary" onClick={() => setOpen(!open)} id="btn"> Cart</button>
 </Link>
     
-<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  >
     <span className="navbar-toggler-icon"></span>
   </button>
 
@@ -161,7 +161,7 @@ function Topheader(props: any) {
     
   </nav>
 
-  <div className="collapse navbar-collapse" id="collapsibleNavbar">
+  <div className="collapse navbar-collapse" id="collapsibleNavbar"  >
   
 <div className="container-fluid">
 <div className="row row2">

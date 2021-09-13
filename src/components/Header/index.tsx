@@ -58,7 +58,8 @@ function Header() {
 
     <div className="col-sm-0 col-md-0 col-xs-12">
     <div id="button2">
-<button className="btn " id="first">Register </button>
+    <Link to="/register">
+<button className="btn " id="first">Register </button></Link>
 
 </div>
     </div>

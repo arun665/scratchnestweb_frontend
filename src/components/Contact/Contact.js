@@ -333,9 +333,10 @@ Punjab, India - 140001</p>
 
 <table>
                    <tr>  
+                   <td><a href="https://api.whatsapp.com/send?phone=918826598301" className="fa fa-whatsapp"></a></td>
+                   <td><a href="https://www.linkedin.com/company/scratchnest-private-limited/" className="fa fa-linkedin"></a></td>
+            
                        <td><a href="https://m.facebook.com/ScratchNestPvtLtd/" className="fa fa-facebook"></a></td>
-                       <td><a href="https://www.linkedin.com/company/scratchnest-private-limited/" className="fa fa-linkedin"></a></td>
-                       <td><a href="https://api.whatsapp.com/send?phone=918826598301" className="fa fa-whatsapp"></a></td>
                    </tr>
                </table>
 

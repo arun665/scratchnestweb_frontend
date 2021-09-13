@@ -22,7 +22,7 @@ iframe{
     text-align:left;
     margin-left:10%;;
     margin-top:5%;
-#h2{
+#h2 , h2{
     background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
     font-weight:bolder;
     font-size:2.2em;
@@ -32,7 +32,6 @@ iframe{
 }
 #h2:hover{
   cursor:pointer;
-
 }
 p{
     font-size:1.1em;
@@ -156,6 +155,17 @@ h1{    background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
         text-align:left;
         margin-left:10%;;
         margin-top:5%;
+        #h2 , h2{
+          background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+          font-weight:bolder;
+          font-size:1.5em;
+      
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+      #h2:hover{
+        cursor:pointer;
+      }
     h2{
         background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
         font-weight:bolder;
@@ -297,6 +307,17 @@ align-items:center;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        #h2 , h2{
+          background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+          font-weight:bolder;
+          font-size:1.8em;
+      
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+      #h2:hover{
+        cursor:pointer;
+      }
         p{
             font-size:1em;
         }

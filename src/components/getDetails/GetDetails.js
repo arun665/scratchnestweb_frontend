@@ -197,7 +197,7 @@ function GetDetails(){
 
     <div class="form-group">
   
-      <input type="text" class="form-control" id="rowinput" placeholder="Contact no."  name="company" onChange={(e)=>{setContact(e.target.value)}} value={contact}  required/>
+      <input type="text" class="form-control" id="rowinput" placeholder="Contact No."  name="company" onChange={(e)=>{setContact(e.target.value)}} value={contact}  required/>
     </div>
 
     

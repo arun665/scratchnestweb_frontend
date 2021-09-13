@@ -304,6 +304,18 @@ p{
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
   }
+  #h2{
+    background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+    font-weight:bolder;
+    font-size:1.5em;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#h2:hover{
+  cursor: pointer;
+
+}
   p{
       font-size:1em;
   }
@@ -404,7 +416,9 @@ p{
         }
         }
         img{
-          max-width:100%;
+          width:80%;
+          margin-left:5%;
+          margin-top:5vh;
         }
         
         table{
@@ -469,6 +483,18 @@ p{
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
       }
+      #h2{
+        background: linear-gradient(96.07deg, #407BFF -3.95%, #1DDAF2 105.23%);
+        font-weight:bolder;
+        font-size:1.8em;
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #h2:hover{
+      cursor: pointer;
+    
+    }
       p{
           font-size:1em;
       }

@@ -18,6 +18,7 @@ body::-webkit-scrollbar {
   background-color: grey;
 }
 
+
 body {
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
@@ -42,7 +43,7 @@ html {
        
 }
 ::-webkit-scrollbar-thumb {
-  background: orangered;
+  background: rgb(62, 205, 224);
 }
 
 * {
