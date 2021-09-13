@@ -5,7 +5,7 @@
 "Login":"https://api.scratchnest.com/login",
 "Register":"https://api.scratchnest.com/register",
 "Query":"https://api.scratchnest.com/submitQuery",
-"GetDetails":"http://localhost:5000/getDetails"
+"GetDetails":"http://localhost:5000/getDetails "
 
 
 }
