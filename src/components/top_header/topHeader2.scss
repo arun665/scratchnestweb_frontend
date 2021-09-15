@@ -129,6 +129,8 @@ hr{
     .row2{
         width:100%;
 
+    
+    
      
         .btn{
             width:100%;
@@ -191,7 +193,7 @@ li{
              ;cursor:pointer;
                 padding:1%;
                 font-size:1.1em;padding-left:10%;
-                background-color: black;
+                
             
                 
 
@@ -477,12 +479,12 @@ padding:0px;
     }
 
     #collapsibleNavbar{
-      border:2px solid white;
-width:80%;
-overflow: hidden;
-background-color: rgb(37, 34, 34);
+      border-top:2px solid white;
+width:100%;
+overflow:hidden;
+background-color: rgba(37, 34, 34,0.9);
 border-radius:25px;
-margin:2%;
+
 float:right;
 padding:5px;
 
@@ -490,6 +492,8 @@ padding:5px;
 color:white;
 margin-top:3%;
 font-size:1.5em;
+text-align: center;
+float: middle;
 
 }
 hr{
@@ -509,13 +513,15 @@ hr{
         }
 
         #ul1{
-            float:left;
-            width:100%;
+          
+            width:100vw;
             .heading1{
                 color:rgb(184, 180, 180);
                 font-size:1.1em;
-                padding:2%;;
-text-align: left;
+                padding:4%;;
+                border-top: 1px solid grey;
+
+text-align: center;
 i{
     padding-left:10px;
     text-align:right;
@@ -523,7 +529,10 @@ i{
 
             }
             .heading1:hover{
-color:white;
+color:rgb(106, 216, 211);
+border-top: 1px solid rgb(106, 216, 211);;
+
+                
             }
             a{
                 background: none;
@@ -543,14 +552,15 @@ color:white;
             
             li{
           
-                color:grey;width:100%;
+                color:rgba(255, 255, 255, 0.774);width:100%;
                 font-size: 1em;
-            padding:1%;
-            padding-left:10%;
-            width:100%;
-
+            padding:4%;
+            
+            width:100vw;
+            border-top:1px solid rgb(122, 110, 110);
+              
                 transition:0.2s;
-                
+                text-align: center;
             }
         
             li:hover{
@@ -558,10 +568,12 @@ color:white;
                 background-color:white;;cursor:pointer;
                 padding:1%;
                 font-size:1em;padding-left:10%;
+              
             
                 
 
             }
+          
 
         }
 
@@ -573,6 +585,8 @@ color:white;
 padding:0px;
             
         }
+
+
 
     }
 

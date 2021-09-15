@@ -42,7 +42,7 @@ import NewLogin from "./components/NewUserLogin/Login";
 
  import {Provider} from 'react-redux';
  import Topheader2 from "./components/top_header/index2";
-
+import OrderNow from './components/OrderNow/temp';
 
 import store from './redux/store';
 import Getdetails from './components/getDetails/GetDetails';
@@ -124,6 +124,7 @@ function App() {
               <Route component={Temp2} path="/temp2" exact/>
               
               <Route component={Temp} path="/temp" exact/>
+              <Route component={OrderNow} path="/order_now" exact/>
               
               <Route component={Dataloggern} path="/products/logger" exact/>
               <Route component={OnePort_Rfid} path="/products/Rfid/oneport" exact/>

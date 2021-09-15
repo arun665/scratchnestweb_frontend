@@ -18,6 +18,8 @@ import PersonModal from "./PersonModal";
 
 function Topheader(props: any) {
   var history=useHistory();
+
+  var [cancel,setCancel]=useState(true);
  // const [{ user,basket }] = useStateValue();
  // const [open, setOpen] = useState(false);
  // const history = useHistory();
@@ -49,6 +51,10 @@ function Topheader(props: any) {
     e.preventDefault();
   });
 });
+
+
+
+
  // console.log(user);
  const [open, setOpen] = useState(false);
   
@@ -153,8 +159,10 @@ function Topheader(props: any) {
     <button className="btn btn-outline-primary" onClick={() => setOpen(!open)} id="btn"> Cart</button>
 </Link>
     
-<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  >
-    <span className="navbar-toggler-icon"></span>
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  onClick={()=>{setCancel(!cancel)}}>
+    <span className="navbar-toggler-icon" style={{display:cancel?'block':'none'}}></span>
+    <i className="fa fa-close" style={{"fontSize":"1.8em" ,"color":"white", display:!cancel?'block':'none'}}></i>
+    
   </button>
 
 
