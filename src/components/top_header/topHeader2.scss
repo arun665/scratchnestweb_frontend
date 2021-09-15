@@ -479,13 +479,13 @@ padding:0px;
     }
 
     #collapsibleNavbar{
-      border-top:2px solid white;
+      border-top:2px solid grey;
 width:100%;
 overflow:hidden;
-background-color: rgba(37, 34, 34,0.9);
-border-radius:25px;
+background-color: rgba(8, 8, 8,0.9);
 
 float:right;
+
 padding:5px;
 
 #producthead{
@@ -520,6 +520,7 @@ hr{
                 font-size:1.1em;
                 padding:4%;;
                 border-top: 1px solid grey;
+                border-bottom: 1px solid grey;;
 
 text-align: center;
 i{
@@ -531,6 +532,7 @@ i{
             .heading1:hover{
 color:rgb(106, 216, 211);
 border-top: 1px solid rgb(106, 216, 211);;
+border-bottom: 1px solid rgb(106, 216, 211);;
 
                 
             }
@@ -585,7 +587,7 @@ border-top: 1px solid rgb(106, 216, 211);;
 padding:0px;
             
         }
-
+hr{}
 
 
     }
