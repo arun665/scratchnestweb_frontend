@@ -20,6 +20,7 @@ function Topheader(props: any) {
   var history=useHistory();
 
   var [cancel,setCancel]=useState(true);
+  var [login_done,setLogin]=useState(true);
  // const [{ user,basket }] = useStateValue();
  // const [open, setOpen] = useState(false);
  // const history = useHistory();
@@ -158,7 +159,17 @@ function Topheader(props: any) {
 
     <button className="btn btn-outline-primary" onClick={() => setOpen(!open)} id="btn"> Cart</button>
 </Link>
-    
+
+
+
+{/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
+
+<button className="btn btn-danger" id="loginbutton" style={{display:!login_done?'block':'none'}}  onClick={()=>{history.push("/login")}}>LOGIN </button>
+
+{/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
+
+<button  style={{display:login_done?'block':'none'}} className="btn circled" type="button" onClick={()=>{history.push("/profile")}}  id="userbutton" ><i className="fa fa-user-circle-o"  ></i></button>
+{/**------------------------------------------------------------------------------------------------------------------------------------------------ */}
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  onClick={()=>{setCancel(!cancel)}}>
     <span className="navbar-toggler-icon" style={{display:cancel?'block':'none'}}></span>
     <i className="fa fa-close" style={{"fontSize":"1.8em" ,"color":"white", display:!cancel?'block':'none'}}></i>
@@ -168,6 +179,7 @@ function Topheader(props: any) {
 
     
   </nav>
+
 
   <div className="collapse navbar-collapse" id="collapsibleNavbar"  >
   
@@ -364,25 +376,30 @@ function Topheader(props: any) {
    
       </li>    
    </Link>
-   
-    </ul>
-    
-   </div>
-
-   
-   <div className="col-sm-12 col-md-12 col-6">
- 
- <ul className="navbar-nav rightnav">
- <Link to="/support" >
+   <Link to="/support" >
 
    <li className="nav-item">
      <a className="nav-link" href="#">Support</a>
    </li>
 
    </Link>
+    </ul>
+    
+   </div>
 
+   <hr></hr>
+   <div className="col-sm-12 col-md-12 col-12" id="phone_login">
 
- </ul>
+{/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
+
+<button className="btn btn-danger" id="loginbutton" style={{display:!login_done?'block':'none'}}  onClick={()=>{history.push("/login")}}>LOGIN </button>
+
+{/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
+
+<button  style={{display:login_done?'block':'none'}} className="btn circled" type="button" onClick={()=>{history.push("/profile")}}  id="userbutton" ><i className="fa fa-user-circle-o"  > Profile</i></button>
+{/**------------------------------------------------------------------------------------------------------------------------------------------------ */}
+ 
+ 
  
 </div>
 

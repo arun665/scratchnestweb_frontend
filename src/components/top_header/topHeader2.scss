@@ -64,9 +64,10 @@ a:hover{
   #btn{
   float:right;
   
-  margin-right:1%;
+  margin-right:0%;
   margin-left:10%;
   font-size:1.1em;
+  
   align-items: right;
   background-color: #1DDAF2;
   border-radius:20px;
@@ -135,6 +136,7 @@ hr{
         .btn{
             width:100%;
         }
+
 
         #ul1{
           padding-left:10px;
@@ -213,7 +215,64 @@ padding:0px;
 
     }
 
+nav{
+  
+#userbutton{
+  background-color: none;
+  color:#1DDAF2;
 
+  
+  
+  
+  
+  i{
+    color:white;
+    font-size: 2em;;
+  }
+}
+
+  
+#userbutton:hover > i{
+  background-color: none;
+  color:#1DDAF2;
+
+}
+#loginbutton{
+  
+  animation: effect 0.5s infinite;
+}
+#loginbutton:hover{
+  
+  animation: none;
+}
+@keyframes effect {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+}
+
+20% {
+    transform: translateX(-4px) rotate(-4deg);
+}
+
+40% {
+    transform: translateX(-2px) rotate(-2deg);
+}
+
+60% {
+    transform: translateX(4px) rotate(4deg);
+}
+
+80% {
+    transform: translateX(2px) rotate(2deg);
+}
+
+100% {
+    transform: translateX(0px) rotate(0deg);
+}
+}
+
+
+}
   
   }
   
@@ -474,13 +533,14 @@ padding:0px;
       
       ul{
         text-align: left;
-     
+
       }
     }
 
     #collapsibleNavbar{
       border-top:2px solid grey;
 width:100%;
+
 
 overflow:hidden;
 background-color: rgb(51, 51, 51);
@@ -512,13 +572,17 @@ hr{
     }
 
     .row2{
-        width:100%;
+        width:100vw;
 
      
         .btn{
             width:100%;
         }
 
+        #userbutton{
+          background-color: none;
+          color:white;
+        }
         #ul1{
           
             width:100vw;
@@ -528,7 +592,9 @@ hr{
                 padding:4%;;
                 border-top: 1px solid grey;
                 border-bottom: 1px solid grey;;
-
+                color:rgb(106, 216, 211);
+                border-top: 1px solid grey;;
+                border-bottom: 1px solid grey;;
 text-align: center;
 i{
     padding-left:10px;
@@ -594,10 +660,73 @@ border-bottom: 1px solid rgb(106, 216, 211);;
 padding:0px;
             
         }
-hr{}
+      }
 
+#phone_login{
+  margin-top:1vh;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  
+width:100vw;   
+font-family: 'Noto Sans', sans-serif;
+          #userbutton{
+            background-color: none;
+            color:#1DDAF2;
+          padding:3%;
+            
+            
+           font-size:1.5em; 
+            
+            i{
+              color:white;
+           
+            }
+          }
+          
+            
+          #userbutton:hover > i{
+            background-color: none;
+            color:#1DDAF2;
+          
+          }
+          #loginbutton{
+            
+            margin-top:2vh;
+          }
+          #loginbutton:hover{
+            
+            animation: none;
+          }
+          @keyframes effect {
+            0% {
+              transform: translateX(0px) rotate(0deg);
+          }
+          
+          20% {
+              transform: translateX(-4px) rotate(-4deg);
+          }
+          
+          40% {
+              transform: translateX(-2px) rotate(-2deg);
+          }
+          
+          60% {
+              transform: translateX(4px) rotate(4deg);
+          }
+          
+          80% {
+              transform: translateX(2px) rotate(2deg);
+          }
+          
+          100% {
+              transform: translateX(0px) rotate(0deg);
+          }
+          }
+        }
+          
+          
 
-    }
+ 
 
   
 
