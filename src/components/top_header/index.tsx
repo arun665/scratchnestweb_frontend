@@ -21,6 +21,8 @@ function Topheader(props: any) {
 
   var [cancel,setCancel]=useState(true);
   var [login_done,setLogin]=useState(true);
+  var [login_done2,setLogin2]=useState(true);
+  
  // const [{ user,basket }] = useStateValue();
  // const [open, setOpen] = useState(false);
  // const history = useHistory();
@@ -161,15 +163,17 @@ function Topheader(props: any) {
 </Link>
 
 
-
+<div id="desktop_nav">
 {/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
 
-<button className="btn btn-danger" id="loginbutton" style={{display:!login_done?'block':'none'}}  onClick={()=>{history.push("/login")}}>LOGIN </button>
+<button className="btn btn-danger" id="loginbutton" style={{display:login_done?'block':'none'}}  onClick={()=>{history.push("/login")}}>LOGIN </button>
 
 {/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
 
-<button  style={{display:login_done?'block':'none'}} className="btn circled" type="button" onClick={()=>{history.push("/profile")}}  id="userbutton" ><i className="fa fa-user-circle-o"  ></i></button>
+<button  style={{display:!login_done?'block':'none'}} className="btn circled" type="button" onClick={()=>{history.push("/profile")}}  id="userbutton" ><i className="fa fa-user-circle-o"  ></i></button>
 {/**------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+</div>
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  onClick={()=>{setCancel(!cancel)}}>
     <span className="navbar-toggler-icon" style={{display:cancel?'block':'none'}}></span>
     <i className="fa fa-close" style={{"fontSize":"1.8em" ,"color":"white", display:!cancel?'block':'none'}}></i>
@@ -387,16 +391,16 @@ function Topheader(props: any) {
     
    </div>
 
-   <hr></hr>
+   
    <div className="col-sm-12 col-md-12 col-12" id="phone_login">
 
 {/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
 
-<button className="btn btn-danger" id="loginbutton" style={{display:!login_done?'block':'none'}}  onClick={()=>{history.push("/login")}}>LOGIN </button>
+<button className="btn btn-danger" id="loginbutton" style={{display:!login_done2?'block':'none'}}  onClick={()=>{setLogin2(!login_done2)}}>LOGIN </button>
 
 {/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
 
-<button  style={{display:login_done?'block':'none'}} className="btn circled" type="button" onClick={()=>{history.push("/profile")}}  id="userbutton" ><i className="fa fa-user-circle-o"  > Profile</i></button>
+<button  style={{display:login_done2?'block':'none'}} className="btn circled" type="button" onClick={()=>{setLogin2(!login_done2)}}  id="userbutton" ><i className="fa fa-user-circle-o"  > Profile</i></button>
 {/**------------------------------------------------------------------------------------------------------------------------------------------------ */}
  
  

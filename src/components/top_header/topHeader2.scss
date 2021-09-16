@@ -458,8 +458,80 @@ padding:0px;
         text-align:left;
     }
 
+  
 
+    #phone_login{
+      margin-top:1vh;
+      border-top:1px solid grey;
+      border-bottom
+      
+      
+      :1px solid grey;
+      
+    width:100vw;   
+    font-family: 'Noto Sans', sans-serif;
+              #userbutton{
+                background-color: none;
+                color:#1DDAF2;
+              padding:3%;
+                
+                
+               font-size:1.5em; 
+                
+                i{
+                  color:white;
+               
+                }
+              }
+              
+                
+              #userbutton:hover > i{
+                background-color: none;
+                color:#1DDAF2;
+              
+              }
+              #loginbutton{
+                
+                margin-top:2vh;
+              }
+              #loginbutton:hover{
+                
+                animation: none;
+              }
+              @keyframes effect {
+                0% {
+                  transform: translateX(0px) rotate(0deg);
+              }
+              
+              20% {
+                  transform: translateX(-4px) rotate(-4deg);
+              }
+              
+              40% {
+                  transform: translateX(-2px) rotate(-2deg);
+              }
+              
+              60% {
+                  transform: translateX(4px) rotate(4deg);
+              }
+              
+              80% {
+                  transform: translateX(2px) rotate(2deg);
+              }
+              
+              100% {
+                  transform: translateX(0px) rotate(0deg);
+              }
+              }
+            }
 
+            #loginbutton  #userbutton{
+              display: none;
+            }
+          
+#desktop_nav{
+  display: none;
+}
 
     
   }
@@ -472,7 +544,9 @@ padding:0px;
       margin-left:20%;;
       width:auto;
     }
-  
+    #desktop_nav{
+      display: none;
+    }
   .phone{
     float:left;
   }
@@ -665,7 +739,10 @@ padding:0px;
 #phone_login{
   margin-top:1vh;
   border-top:1px solid grey;
-  border-bottom:1px solid grey;
+  border-bottom
+  
+  
+  :1px solid grey;
   
 width:100vw;   
 font-family: 'Noto Sans', sans-serif;
