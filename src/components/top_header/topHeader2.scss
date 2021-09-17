@@ -297,7 +297,10 @@ nav{
       margin-left:20%;;
       width:auto;
     }
-  
+    #logout{
+      display: none;
+    }
+    
   
     .navbar{
       background-color: #262727;
@@ -566,6 +569,10 @@ padding:0px;
     #desktop_nav{
       display: none;
     }
+    #logout{
+      display: none;
+    }
+
   .phone{
     float:left;
   }

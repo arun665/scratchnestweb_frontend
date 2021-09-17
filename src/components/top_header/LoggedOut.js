@@ -173,8 +173,8 @@ function LoggedOut() {
 
 </div>
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  onClick={()=>{setCancel(!cancel)}}>
-    <span className="navbar-toggler-icon" style={{display:cancel?'block':'none'}}></span>
-    <i className="fa fa-close" style={{"fontSize":"1.8em" ,"color":"white", display:!cancel?'block':'none'}}></i>
+    <span className="navbar-toggler-icon" ></span>
+   
     
   </button>
 
@@ -394,7 +394,7 @@ function LoggedOut() {
 
 {/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
 
-<button className="btn btn-danger" id="loginbutton" style={{display:'block'}}  onClick={()=>{history.push('./login')}}>LOGIN </button>
+<button className="btn btn-danger" id="loginbutton" style={{display:'block'}}   onClick={Login}>LOGIN </button>
 
 {/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
 
