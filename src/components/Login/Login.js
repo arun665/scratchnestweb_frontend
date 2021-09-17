@@ -21,13 +21,23 @@ import facebook from './facebook.png';
 import { useHistory } from "react-router";
 import Config from '../../config.json';
 import Loader from "react-loader-spinner";
-
+import {UserContext} from '../../App';
+import {useContext} from 'react';
 const Recaptcha = require('react-recaptcha');
 const SITE_KEY = "6LfJOK4bAAAAAMW878jeezl7fkqPmTcZoFzCYWrz";
 const eye = <FontAwesomeIcon icon={faEye} />;
 
 
 function Login(props){
+
+
+// importing reducer varialbe
+  const {state,dispatch}= useContext(UserContext);
+
+
+
+
+
   const [loader,setLoading]=useState(false);
   const [show, setShow] = useState(false);
   const [errorshow, setErrorShow] = useState(false);
@@ -46,7 +56,7 @@ const togglePasswordVisiblity = () => {
 
   const handleClose = () => {
     setShow(false)
-    history.goBack();
+    props.history.goBack()
 
 
 
@@ -198,7 +208,7 @@ const handleErrorClose=()=>{
    
  // here we are posting data to api
   const submitData = token => {
-
+  
     console.log(token);
     console.log(" running api ");
     
@@ -227,10 +237,16 @@ console.log("running config env file");
   
 // if user login successfully
       if(res.status==true){
+
+                //-----------------------------------------------------------sending data to reducer---------------
+                dispatch({type:"USER",payload:true});
+                //--------------------------------------------------------------------------------------------------
+
          setUsername_email('');
          setPassword('');
          setRemember(false);
         setShow(true);
+
 
       }
       else{
@@ -238,11 +254,12 @@ console.log("running config env file");
 console.log("running config env file");
 setError(res.error);
 setErrorShow(true);
+setLoading(false);
 }
     })
     .catch(err=>{
 console.log(err);
-      history.push('/login');
+
 
     })
   }
@@ -267,7 +284,7 @@ return(<>
    <div className="container successmodal" style={{"textAlign":"center","width":"80%","margin":"10%"}}>
      <img src={success} style={{"width":"20%"}} />
          <h1 className="text-success" style={{"textAlign":"center"}}> Success</h1> 
-         <p> Registered Successfully   </p>
+         <p> Logged in Successfully   </p>
          <button className="btn btn-lg btn-success" onClick={handleClose}>Close</button>
    </div>
 

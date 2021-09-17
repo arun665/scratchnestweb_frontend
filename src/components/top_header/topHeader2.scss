@@ -52,6 +52,7 @@
      float:left;
     
     }
+    
 a:hover{
     
     color:#1DDAF2;
@@ -64,23 +65,36 @@ a:hover{
   #btn{
   float:right;
   
-  margin-right:0%;
-  margin-left:10%;
-  font-size:1.1em;
   
+  margin-right:10%;
+  margin-left:10%;
+  font-size:1.8em;
+  
+  i{
+    color:white;
+  
+  }
   align-items: right;
-  background-color: #1DDAF2;
-  border-radius:20px;
-  padding:10px;
-  padding-left:30px;
-  padding-right:30px;
-  color:black;
+  color:white;
+margin-top: auto;
+margin-bottom: auto;
+  
+  padding:0px;
   font-family: 'Noto Sans', sans-serif;
   margin-top: auto;
   margin-bottom: auto;
-  
+  border-width: 0px;;
   
   }
+#btn:hover{
+  background: none;
+  color:#1DDAF2;
+  i{
+    color:#1DDAF2;
+  }
+  font-size:2em;
+}
+
   #tempnav{
     display: none;
   }
@@ -203,7 +217,10 @@ li{
 
         }
       
-
+.navbar-toggler{
+  margin-left:0px;
+  float:right;
+}
 
         li{
           
@@ -239,41 +256,37 @@ nav{
 }
 #loginbutton{
   
-  animation: effect 0.5s infinite;
+  animation: effect 2s infinite;
+  color:white;
 }
 #loginbutton:hover{
-  
+  color:#1DDAF2;
+  border-color:#1DDAF2;
+  background: none;
   animation: none;
 }
 @keyframes effect {
   0% {
-    transform: translateX(0px) rotate(0deg);
+   border-color:grey;
 }
-
-20% {
-    transform: translateX(-4px) rotate(-4deg);
-}
-
-40% {
-    transform: translateX(-2px) rotate(-2deg);
-}
-
-60% {
-    transform: translateX(4px) rotate(4deg);
-}
-
-80% {
-    transform: translateX(2px) rotate(2deg);
-}
-
-100% {
-    transform: translateX(0px) rotate(0deg);
-}
-}
-
-
-}
+50% {
+  border-color:white;
   
+   
+}
+100% {
+  border-color:grey;
+
+   
+}
+}
+
+
+}
+#phone_login{
+  display: none;
+}  
+
   }
   
   }
@@ -491,11 +504,17 @@ padding:0px;
               
               }
               #loginbutton{
-                
-                margin-top:2vh;
+  
+                background: none;
+                border:0px solid white;
+                color:white;
+              margin:5px;
+              color:rgb(226, 132, 132);
               }
               #loginbutton:hover{
-                
+                color:#1DDAF2;
+                border-color:#1DDAF2;
+                background: none;
                 animation: none;
               }
               @keyframes effect {
@@ -767,11 +786,17 @@ font-family: 'Noto Sans', sans-serif;
           
           }
           #loginbutton{
-            
-            margin-top:2vh;
+  
+            background: none;
+            border:0px solid white;
+            color:white;
+          margin:5px;
+          color:rgb(226, 132, 132);
           }
           #loginbutton:hover{
-            
+            color:#1DDAF2;
+            border-color:#1DDAF2;
+            background: none;
             animation: none;
           }
           @keyframes effect {

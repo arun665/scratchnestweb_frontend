@@ -1,11 +1,12 @@
 import "./App.css";
-
+import {createContext , useReducer} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,Redirect,
   useHistory,
 } from "react-router-dom";
+import { initialState, reducer} from './reducer/userReducer';
 import HomeSector from "./components/HomeSectors/HomeSector.tsx";
 
 import React, { useEffect, useState } from "react";
@@ -53,6 +54,11 @@ import Contact from './components/Contact/Contact.js';
 import Support from './components/Support/Support';
 import Order_failure from './components/order_failure/confirmation';
 import GetDetails from "./components/getDetails/GetDetails";
+
+
+
+export const UserContext = createContext();
+
 function App() {
   
   const [loading, setLoading] = useState(true);
@@ -90,8 +96,11 @@ function App() {
 
 */
 
+const [state,dispatch] = useReducer(reducer,initialState);
+
   return (
     <>
+    <UserContext.Provider value={{state,dispatch}}>
        <Provider store={store}>
       <div className="App" >
         {loading == true ? (
@@ -144,6 +153,7 @@ function App() {
         )}
       </div>
       </Provider>
+      </UserContext.Provider>
     </>
   );
 }
