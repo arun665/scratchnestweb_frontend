@@ -27,7 +27,7 @@ const SITE_KEY = "6LfJOK4bAAAAAMW878jeezl7fkqPmTcZoFzCYWrz";
 const eye = <FontAwesomeIcon icon={faEye} />;
 
 
-function Register(){
+function Register(props){
   const [loader,setLoading]=useState(false);
   const [show, setShow] = useState(false);
   const [errorshow, setErrorShow] = useState(false);
@@ -52,6 +52,9 @@ const togglePasswordVisiblity = () => {
 
       const handleClose = () => {
         setShow(false)
+        //redireted to login page 
+        props.history.goBack()
+
       }
 /*
       const handleClose = () => {
@@ -207,7 +210,8 @@ if(username.charAt(i)<97){
 
   setShow(false);
      //redireted to login page 
-     history.push("/new_login");
+     //history.push("/new_login");
+     props.history.goBack()
 
 
  }
@@ -250,11 +254,6 @@ if(username.charAt(i)<97){
       
          setPassword('');
         setShow(true);
-
-
-        //redireted to login page 
-        history.push("/new_login");
-
       }
       else{
         //else if server showed some errro in registration
@@ -283,7 +282,7 @@ return(<>
      <img src={success} style={{"width":"20%"}} />
          <h1 className="text-success" style={{"textAlign":"center"}}> Success</h1> 
          <p> Registered Successfully   </p>
-         <button className="btn btn-lg btn-success" onClick={handleRedirecting} >Proceed</button>
+         <button className="btn btn-lg btn-success" onClick={handleClose} >Proceed</button>
    </div>
 
         
