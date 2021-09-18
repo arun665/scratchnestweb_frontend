@@ -370,6 +370,14 @@ function LoggedIn() {
    </li>
 
    </Link>
+   <Link to="/store" >
+
+   <li className="nav-item">
+     <a className="nav-link" href="#">Store</a>
+   </li>
+
+   </Link>
+
     </ul>
     
    </div>

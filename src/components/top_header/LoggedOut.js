@@ -48,12 +48,6 @@ function LoggedOut() {
   //  } else history.push("/account");
  // };
 
- const Login=()=>{
-       //-----------------------------------------------------------sending data to reducer---------------
-       dispatch({type:"USER",payload:true});
-       //--------------------------------------------------------------------------------------------------
- }
-
 
  // console.log(user);
  const [open, setOpen] = useState(false);
@@ -164,7 +158,7 @@ function LoggedOut() {
 <div id="desktop_nav">
 {/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
 
-<button className="btn btn-outline-danger" id="loginbutton" style={{display:'block'}}  onClick={Login}>LOGIN </button>
+<button className="btn btn-outline-danger" id="loginbutton" style={{display:'block'}}   onClick={()=>{history.push('./login')}}>LOGIN </button>
 
 {/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
 
@@ -385,6 +379,14 @@ function LoggedOut() {
    </li>
 
    </Link>
+   <Link to="/store" >
+
+<li className="nav-item">
+  <a className="nav-link" href="#">Store</a>
+</li>
+
+</Link>
+
     </ul>
     
    </div>
@@ -394,7 +396,7 @@ function LoggedOut() {
 
 {/* this is our login button this will appear until the user logins------------------------------------------------------------*/}
 
-<button className="btn btn-danger" id="loginbutton" style={{display:'block'}}   onClick={Login}>LOGIN </button>
+<button className="btn btn-danger" id="loginbutton" style={{display:'block'}}   onClick={()=>{history.push('./login')}}>LOGIN </button>
 
 {/* this is our profile  button this will appear until the user logouts------------------------------------------------------------*/}
 

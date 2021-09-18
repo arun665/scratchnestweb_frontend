@@ -54,7 +54,7 @@ import Contact from './components/Contact/Contact.js';
 import Support from './components/Support/Support';
 import Order_failure from './components/order_failure/confirmation';
 import GetDetails from "./components/getDetails/GetDetails";
-
+import Store from './components/Store/Store';
 
 
 export const UserContext = createContext();
@@ -120,6 +120,7 @@ const [state,dispatch] = useReducer(reducer,initialState);
               <Route component={Support} path="/support" exact/>
               <Route component={Profile} path="/profile" exact/>
               <Route component={GetDetails} path="/get_details" exact/>
+              <Route component={Store} path="/store" exact/>
             
               <Route component={Confirmation} path="/order_confirmation" exact/>
               <Route component={Order_failure} path="/order_failure" exact/>
